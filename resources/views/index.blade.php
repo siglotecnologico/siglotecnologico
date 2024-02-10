@@ -1,5 +1,6 @@
 @extends('app')
 @section('content')
+    @include('header')
     <!-- ---------- loader ---------- -->
     <div id="preloader">
         <div id="loading-wrapper" class="show">
@@ -79,14 +80,7 @@
                                     <div class="inf">Proyectos completados</div>
                                 </div>
                             </div>
-                            <!-- <div class="col-lg-3 col-sm-6">
-                                                                                                                    <div class="num-item wow fadeInUp" data-wow-delay="0.4s">
-                                                                                                                        <div class="num">
-                                                                                                                            <span class="counter">240</span>
-                                                                                                                        </div>
-                                                                                                                        <div class="inf">Premios obtenidos</div>
-                                                                                                                    </div>
-                                                                                                                </div> -->
+
                             <div class="col-lg-4 col-sm-6">
                                 <div class="num-item wow fadeInUp" data-wow-delay="0.6s">
                                     <div class="num">
@@ -230,7 +224,11 @@
                         </div>
                     </div>
                 </div>
+                <a href="{{ route('services') }}" class="btn butn-gard border-0 text-white wow fadeInUp">
+                    <span>Otros Servicios</span>
+                </a>
             </div>
+
             <img src="assets/img/services/ser_shap_l.png" alt="" class="ser_shap_l">
             <img src="assets/img/services/ser_shap_r.png" alt="" class="ser_shap_r">
         </section>
@@ -305,86 +303,7 @@
 
 
         <!-- ====== start portfolio ====== -->
-        <section class="portfolio section-padding bg-gray style-1" data-scroll-index="4">
-            <div class="container">
-                <div class="row">
-                    <div class="col offset-lg-1">
-                        <div class="section-head mb-60">
-                            <h6 class="color-main text-uppercase wow fadeInUp">Portafolio</h6>
-                            <h2 class="wow fadeInUp">
-                                Últimos Proyectos <span class="fw-normal">De Nuestro Equipo</span>
-                            </h2>
-                        </div>
-                    </div>
-                </div>
-                <div class="content wow fadeIn slow">
-                    <div class="portfolio-slider">
-                        <div class="swiper-container">
-                            <div class="swiper-wrapper">
-                                <div class="swiper-slide">
-                                    <div class="portfolio-card">
-                                        <div class="img">
-                                            <img src="assets/img/projects/prog/1.jpeg" alt="">
-                                        </div>
-                                        <div class="info">
-                                            <h5>
-                                                <a href="#">Actualización de Infraestructura</a>
-                                            </h5>
-                                            <small class="d-block color-main text-uppercase"><a href="#">Consultoría
-                                                    de IT</a></small>
-                                            <div class="text">
-                                                Confía en nuestros expertos para eliminar los puntos dolorosos en tu flujo
-                                                de trabajo e implementar nuevas tecnologías y aplicaciones.
-                                            </div>
-                                            <div class="tags">
-                                                <a href="#">Consultoría</a>
-                                                <a href="#">Gestión</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="portfolio-card">
-                                        <div class="img">
-                                            <img src="assets/img/projects/prog/2.png" alt="">
-                                        </div>
-                                        <div class="info">
-                                            <h5>
-                                                <a href="#">Página de Aterrizaje Criftocy</a>
-                                            </h5>
-                                            <small class="d-block color-main text-uppercase"><a href="#">Desarrollo
-                                                    de Sitios Web,</a> <a href="#">Diseño UI/UX</a></small>
-                                            <div class "text">
-                                                Confía en nuestros expertos para eliminar los puntos dolorosos en tu flujo
-                                                de trabajo e implementar nuevas tecnologías y aplicaciones.
-                                            </div>
-                                            <div class="tags">
-                                                <a href="#">WordPress</a>
-                                                <a href="#">PHP</a>
-                                                <a href="#">HTML/CSS</a>
-                                                <a href="#">Figma</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <!-- Repite este bloque para cada proyecto -->
-                                </div>
-                            </div>
-                        </div>
 
-                        <!-- ====== Paginación del slider ====== -->
-                        <div class="swiper-pagination"></div>
-
-                        <!-- ====== Navegación del slider ====== -->
-                        <div class="swiper-button-next"></div>
-                        <div class="swiper-button-prev"></div>
-                    </div>
-                </div>
-            </div>
-            <img src="assets/img/projects/prog/shap_r.png" alt="" class="shap_r">
-            <img src="assets/img/projects/prog/shap_l.png" alt="" class="shap_l">
-        </section>
 
         <!-- ====== end portfolio ====== -->
 
@@ -480,189 +399,12 @@
         <!-- ====== end testimonials ====== -->
 
         <!-- ====== start team ====== -->
-        <section class="team section-padding pt-0 style-1">
-            <div class="container">
-                <div class="section-head mb-60 text-center">
-                    <h6 class="color-main text-uppercase wow fadeInUp">Conoce a nuestros expertos</h6>
-                    <h2 class="wow fadeInUp">
-                        Satisfacción del Cliente, <span class="fw-normal">Nuestra Reputación</span>
-                    </h2>
-                </div>
-                <div class="content">
-                    <div class="team_box wow fadeInUp" data-wow-delay="0">
-                        <div class="avatar">
-                            <img src="assets/img/team/1.jpeg" alt="">
-                        </div>
-                        <div class="info">
-                            <h6><a href="#">Michael Edwards</a></h6>
-                            <small>CEO Fundador</small>
-                            <div class="social_icons">
-                                <a href="#">
-                                    <i class="fab fa-twitter"></i>
-                                </a>
-                                <a href="#">
-                                    <i class="fab fa-facebook-f"></i>
-                                </a>
-                                <a href="#">
-                                    <i class="fab fa-linkedin-in"></i>
-                                </a>
-                                <a href="#">
-                                    <i class="fab fa-github"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="team_box wow fadeInUp" data-wow-delay="0.2s">
-                        <div class="avatar">
-                            <img src="assets/img/team/2.jpeg" alt="">
-                        </div>
-                        <div class="info">
-                            <h6><a href="#">Bobby Kane</a></h6>
-                            <small>CTO</small>
-                            <div class="social_icons">
-                                <a href="#">
-                                    <i class="fab fa-twitter"></i>
-                                </a>
-                                <a href="#">
-                                    <i class="fab fa-linkedin-in"></i>
-                                </a>
-                                <a href="#">
-                                    <i class="fab fa-github"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="team_box wow fadeInUp" data-wow-delay="0.4s">
-                        <div class="avatar">
-                            <img src="assets/img/team/3.jpeg" alt="">
-                        </div>
-                        <div class="info">
-                            <h6><a href="#">Robert Downey Jr</a></h6>
-                            <small>Gerente de Proyecto</small>
-                            <div class="social_icons">
-                                <a href="#">
-                                    <i class="fab fa-twitter"></i>
-                                </a>
-                                <a href="#">
-                                    <i class="fab fa-facebook-f"></i>
-                                </a>
-                                <a href="#">
-                                    <i class="fab fa-linkedin-in"></i>
-                                </a>
-                                <a href="#">
-                                    <i class="fab fa-github"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="team_box wow fadeInUp" data-wow-delay="0.6s">
-                        <div class="avatar">
-                            <img src="assets/img/team/4.jpeg" alt="">
-                        </div>
-                        <div class="info">
-                            <h6><a href="#">Andrew Robertson</a></h6>
-                            <small>Líder de Marketing</small>
-                            <div class="social_icons">
-                                <a href="#">
-                                    <i class="fab fa-twitter"></i>
-                                </a>
-                                <a href="#">
-                                    <i class="fab fa-linkedin-in"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="team_box wow fadeInUp" data-wow-delay="0.8s">
-                        <div class="avatar">
-                            <img src="assets/img/team/5.jpeg" alt="">
-                        </div>
-                        <div class="info">
-                            <h6><a href="#">Alexander Avery</a></h6>
-                            <small>Director Creativo</small>
-                            <div class="social_icons">
-                                <a href="#">
-                                    <i class="fab fa-facebook-f"></i>
-                                </a>
-                                <a href="#">
-                                    <i class="fab fa-linkedin-in"></i>
-                                </a>
-                                <a href="#">
-                                    <i class="fab fa-github"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="bttns mt-4 text-center">
-                    <a href="page-about-5.html" class="btn btn-dark wow zoomIn">
-                        <span>Ver Todo el Equipo</span>
-                    </a>
-                    <a href="page-contact-5.html" class="btn butn-gard border-0 text-white wow zoomIn">
-                        <span>Únete a Nuestro Equipo</span>
-                    </a>
-                </div>
-            </div>
-            <img src="assets/img/team/team_shap.png" alt="" class="team_shap">
-        </section>
+
 
         <!-- ====== end team ====== -->
 
         <!-- ====== start blog ====== -->
-        <section class="blog section-padding bg-gray style-1" data-scroll-index="6">
-            <div class="container">
-                <div class="row">
-                    <div class="col offset-lg-1">
-                        <div class="section-head mb-60">
-                            <h6 class="color-main text-uppercase wow fadeInUp">nuestra prensa</h6>
-                            <h2 class="wow fadeInUp">
-                                Últimas Publicaciones <span class="fw-normal">De Nuestra Prensa</span>
-                            </h2>
-                        </div>
-                    </div>
-                </div>
-                <div class="content">
-                    <div class="blog_slider">
-                        <div class="swiper-container">
-                            <div class="swiper-wrapper">
-                                <div class="swiper-slide">
-                                    <div class="blog_box">
-                                        <div class="tags">
-                                            <a href="#">noticias</a>
-                                        </div>
-                                        <div class="img">
-                                            <img src="assets/img/blog/1.jpeg" alt="">
-                                        </div>
-                                        <div class="info">
-                                            <h6><a href="page-single-post-5.html">Tendencias Cripto 2023</a></h6>
-                                            <div class="auther">
-                                                <span>
-                                                    <img class="auther-img" src="assets/img/testimonials/user1.jpeg"
-                                                        alt="">
-                                                    <small><a href="#">Por Admin</a></small>
-                                                </span>
-                                                <span>
-                                                    <i class="bi bi-calendar2"></i>
-                                                    <small><a href="#">15 de mayo de 2022</a></small>
-                                                </span>
-                                            </div>
-                                            <div class="text">
-                                                Si hay una forma en que la tecnología inalámbrica ha cambiado la forma en
-                                                que trabajamos, es que ahora todos están conectados [...]
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- Repite los bloques para cada entrada del blog -->
-                                <!-- ... -->
-                            </div>
-                        </div>
-                        <!-- ====== Navegación del slider ====== -->
-                        <div class="swiper-button-prev"></div>
-                        <div class="swiper-button-next"></div>
-                    </div>
-                </div>
-            </div>
-        </section>
+
 
         <!-- ====== end blog ====== -->
 
@@ -684,19 +426,17 @@
                                 <h4 class="wow fadeInUp">+593 988492339</h4>
                                 <ul>
                                     <li class="wow fadeInUp">
-                                        <strong>Dirección : </strong> 58 Howard Street, San Francisco, CA 941
+                                        <strong>Dirección : </strong> Guayaquil-Ecuador
                                     </li>
                                     <li class="wow fadeInUp">
-                                        <strong>Email : </strong> contact@siglotecnologico.com
-                                    </li>
-                                    <li class="wow fadeInUp">
-                                        <strong>Fax : </strong> fax@siglotecnologico.com
+                                        <strong>Email : </strong> info@siglotecnologico.com
                                     </li>
                                     <li class="wow fadeInUp">
                                         <strong>Horario de Trabajo : </strong> Lun - Sáb: 9:00 - 18:00
                                     </li>
                                 </ul>
-                                <a href="#" class="wow fadeInUp">obtener dirección</a>
+                                <a href="{{ route('contactos') }}" class="wow fadeInUp">obtener
+                                    dirección</a>
                             </div>
                         </div>
                         <div class="col-lg-6 offset-lg-1">
@@ -716,12 +456,21 @@
                                     </div>
                                     <div class="col-lg-12">
                                         <div class="form-group mb-3 wow fadeInUp">
-                                            <select name="option" class="form-select"
-                                                aria-label="Default select example">
-                                                <option selected>Su consulta sobre</option>
-                                                <option value="1">Uno</option>
-                                                <option value="2">Dos</option>
-                                                <option value="3">Tres</option>
+                                            <select name="option" class="form-select">
+                                                <option value="how can we help" selected>Selecciona el motivo de tu
+                                                    consulta
+                                                </option>
+                                                <option value="consultoría">Consultoría en Transformación Digital</option>
+                                                <option value="desarrollo">Desarrollo de Aplicaciones Empresariales
+                                                </option>
+                                                <option value="inteligencia">Inteligencia Artificial y Machine Learning
+                                                </option>
+                                                <option value="seguridad">Seguridad Informática y Ciberseguridad</option>
+                                                <option value="cloud">Servicios en la Nube (Cloud Computing)</option>
+                                                <option value="iot">Internet de las Cosas (IoT) y Dispositivos
+                                                    Conectados
+                                                </option>
+                                                <option value="analisis">Análisis de Datos y Big Data</option>
                                             </select>
                                         </div>
                                     </div>

@@ -19,26 +19,12 @@
                             <a href="https://www.instagram.com/siglotecnologico/" target="_blank">
                                 <i class="fab fa-instagram"></i>
                             </a>
-                            {{-- <a href="#" target="_blank">
-                                <i class="fab fa-facebook-f"></i>
-                            </a> --}}
-                            {{--  <a href="https://api.whatsapp.com/send?phone=593959520743&text=%C2%A1Hola!,%20Estoy%20Interesados%20en%20uno%20de%20sus%20servicios."
-                                target="_blank">
-                                <img src="{{ asset('icon/whatsapp.svg') }}" alt="">
-                            </a> --}}
+
                             <a href="https://github.com/siglotecnologico" target="_blank">
                                 <i class="fab fa-github"></i>
                             </a>
                         </div>
-                        <!-- <div class="dropdown">
-                                        <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
-                                            <img class="me-1" src="assets/img/lang.png" alt=""> English
-                                        </a>
-                                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                                            <li><a class="dropdown-item" href="#">French</a></li>
-                                            <li><a class="dropdown-item" href="#">Arabic</a></li>
-                                        </ul>
-                                    </div> -->
+
                     </div>
                 </div>
             </div>
@@ -50,7 +36,7 @@
 
 <nav class="navbar navbar-expand-lg navbar-light style-1">
     <div class="container">
-        <a class="navbar-brand" href="#" data-scroll-nav="0">
+        <a class="navbar-brand" href="{{ route('inicio') }}" data-scroll-nav="0">
             <img src="{{ asset('assets/img/LOGOSIGLO180x54.png') }}" alt="">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
@@ -59,6 +45,11 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item dropdown">
+                    <a class="nav-link" href="{{ route('inicio') }}">
+                        Inicio
+                    </a>
+                </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link active" data-scroll-nav="1">
                         Siglo Tecnológico

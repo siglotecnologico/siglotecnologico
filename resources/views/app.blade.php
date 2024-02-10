@@ -36,7 +36,7 @@
 
 <body>
     @include('navar')
-    @include('header')
+
     @yield('content')
     @include('footer')
 
