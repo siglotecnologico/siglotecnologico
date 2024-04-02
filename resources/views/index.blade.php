@@ -22,8 +22,8 @@
                     <div
                         class="about-logos d-flex align-items-center justify-content-between border-bottom border-1 brd-light pb-20">
                         <a href="#" class="logo wow fadeInUp" data-wow-delay="0">
-                            <img src="assets/img/about/about_logos/1.png" alt="">
-                        </a>
+                            <img src="{{ asset('images/cable-car.png') }}" hidden alt="">
+                        </a><img src="assets/img/about/about_logos/1.png" alt="">
                         <a href="#" class="logo wow fadeInUp" data-wow-delay="0.2s">
                             <img src="assets/img/about/about_logos/2.png" alt="">
                         </a>
