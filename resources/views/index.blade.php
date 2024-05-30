@@ -21,7 +21,7 @@
                 <div class="content">
                     <div
                         class="about-logos d-flex align-items-center justify-content-between border-bottom border-1 brd-light pb-20">
-                        <a href="#" class="logo wow fadeInUp" data-wow-delay="0">
+                        {{--  <a href="#" class="logo wow fadeInUp" data-wow-delay="0">
                             <img src="{{ asset('images/cable-car.png') }}" hidden alt="">
                         </a><img src="assets/img/about/about_logos/1.png" alt="">
                         <a href="#" class="logo wow fadeInUp" data-wow-delay="0.2s">
@@ -35,7 +35,7 @@
                         </a>
                         <a href="#" class="logo wow fadeInUp" data-wow-delay="0.8s">
                             <img src="assets/img/about/about_logos/5.png" alt="">
-                        </a>
+                        </a> --}}
                     </div>
                     <div class="about-info">
                         <div class="row justify-content-between">
@@ -53,7 +53,8 @@
                                         las principales empresas del mundo, pymes y desafiantes tecnológicos. Ayudamos a las
                                         empresas a elevar su valor a través del desarrollo de software personalizado, diseño
                                         de productos, control de calidad y servicios de consultoría.</p>
-                                    <a href="#contacto" class="btn btn-outline-light mt-5 sm-butn wow fadeInUp slow">
+                                    <a href="{{ route('contactos') }}"
+                                        class="btn btn-outline-light mt-5 sm-butn wow fadeInUp slow">
                                         <span>Contacta con nosotros</span>
                                     </a>
                                 </div>
@@ -117,7 +118,7 @@
                         <div class="col-lg-4">
                             <div class="service-box mb-4 wow fadeInUp" data-wow-delay="0">
                                 <h5>
-                                    <a href="#">Desarrollo de Software</a>
+                                    <a href="{{ route('services') }}">Desarrollo de Software</a>
                                     <span class="num">01</span>
                                 </h5>
                                 <div class="icon">
@@ -135,7 +136,7 @@
                         <div class="col-lg-4">
                             <div class="service-box mb-4 wow fadeInUp" data-wow-delay="0.2s">
                                 <h5>
-                                    <a href="#">Seguridad de Datos</a>
+                                    <a href="{{ route('services') }}">Seguridad de Datos</a>
                                     <span class="num">02</span>
                                 </h5>
                                 <div class="icon">
@@ -153,7 +154,7 @@
                         <div class="col-lg-4">
                             <div class="service-box mb-4 wow fadeInUp" data-wow-delay="0.4s">
                                 <h5>
-                                    <a href="#">Desarrollo de Sitios Web</a>
+                                    <a href="{{ route('services') }}">Desarrollo de Sitios Web</a>
                                     <span class="num">03</span>
                                 </h5>
                                 <div class="icon">
@@ -171,7 +172,7 @@
                         <div class="col-lg-4">
                             <div class="service-box mb-4 mb-md-0 wow fadeInUp" data-wow-delay="0">
                                 <h5>
-                                    <a href="#">Diseño UI/UX</a>
+                                    <a href="{{ route('services') }}">Diseño UI/UX</a>
                                     <span class="num">04</span>
                                 </h5>
                                 <div class="icon">
@@ -189,7 +190,7 @@
                         <div class="col-lg-4">
                             <div class="service-box mb-4 mb-md-0 wow fadeInUp" data-wow-delay="0.2s">
                                 <h5>
-                                    <a href="#">Servicios en la Nube</a>
+                                    <a href="{{ route('services') }}">Servicios en la Nube</a>
                                     <span class="num">05</span>
                                 </h5>
                                 <div class="icon">
@@ -207,7 +208,7 @@
                         <div class="col-lg-4">
                             <div class="service-box wow fadeInUp" data-wow-delay="0.4s">
                                 <h5>
-                                    <a href="#">Integraciones</a>
+                                    <a href="{{ route('services') }}">Integraciones</a>
                                     <span class="num">06</span>
                                 </h5>
                                 <div class="icon">
@@ -439,26 +440,49 @@
                                     dirección</a>
                             </div>
                         </div>
+
                         <div class="col-lg-6 offset-lg-1">
-                            <form class="contact_form" action="contact.php" method="post">
+                            @if (session('success'))
+                                <div class="alert alert-success">
+                                    {{ session('success') }}
+                                </div>
+                            @endif
+
+                            @if ($errors->any())
+                                <div class="alert alert-danger">
+                                    <ul>
+                                        @foreach ($errors->all() as $error)
+                                            <li>{{ $error }}</li>
+                                        @endforeach
+                                    </ul>
+                                </div>
+                            @endif
+                            <form class="contact_form" action="{{ route('contacto.store') }}" method="post">
+                                @csrf
                                 <div class="row gx-3">
                                     <div class="col-lg-6">
-                                        <div class="form-group mb-3 wow fadeInUp">
+                                        <div class="form-group mb-3">
                                             <input type="text" name="name" class="form-control"
-                                                placeholder="Nombre *">
+                                                placeholder="Nombre *" value="{{ old('name') }}">
+                                            @error('name')
+                                                <div class="text-danger">{{ $message }}</div>
+                                            @enderror
                                         </div>
                                     </div>
                                     <div class="col-lg-6">
-                                        <div class="form-group mb-3 wow fadeInUp">
-                                            <input type="text" name="email" class="form-control"
-                                                placeholder="Dirección de correo electrónico *">
+                                        <div class="form-group mb-3 ">
+                                            <input type="email" name="email" class="form-control"
+                                                placeholder="Dirección de correo electrónico *"
+                                                value="{{ old('email') }}">
+                                            @error('email')
+                                                <div class="text-danger">{{ $message }}</div>
+                                            @enderror
                                         </div>
                                     </div>
                                     <div class="col-lg-12">
-                                        <div class="form-group mb-3 wow fadeInUp">
+                                        <div class="form-group mb-3 ">
                                             <select name="option" class="form-select">
-                                                <option value="how can we help" selected>Selecciona el motivo de tu
-                                                    consulta
+                                                <option value="" selected>Selecciona el motivo de tu consulta
                                                 </option>
                                                 <option value="consultoría">Consultoría en Transformación Digital</option>
                                                 <option value="desarrollo">Desarrollo de Aplicaciones Empresariales
@@ -468,33 +492,43 @@
                                                 <option value="seguridad">Seguridad Informática y Ciberseguridad</option>
                                                 <option value="cloud">Servicios en la Nube (Cloud Computing)</option>
                                                 <option value="iot">Internet de las Cosas (IoT) y Dispositivos
-                                                    Conectados
-                                                </option>
+                                                    Conectados</option>
                                                 <option value="analisis">Análisis de Datos y Big Data</option>
                                             </select>
+                                            @error('option')
+                                                <div class="text-danger">{{ $message }}</div>
+                                            @enderror
                                         </div>
                                     </div>
                                     <div class="col-lg-12">
-                                        <div class="form-group mb-3 wow fadeInUp">
-                                            <textarea class="form-control" rows="4" placeholder="Escribe tu consulta aquí"></textarea>
+                                        <div class="form-group mb-3">
+                                            <textarea class="form-control" name="message" rows="4" placeholder="Escribe tu consulta aquí">{{ old('message') }}</textarea>
+                                            @error('message')
+                                                <div class="text-danger">{{ $message }}</div>
+                                            @enderror
                                         </div>
                                     </div>
                                     <div class="col-lg-12">
-                                        <div class="form-check mb-4 wow fadeInUp">
-                                            <input class="form-check-input" type="checkbox" value=""
-                                                id="flexCheckDefault">
+                                        <div class="form-check mb-4 ">
+                                            <input class="form-check-input" type="checkbox" value="1"
+                                                id="flexCheckDefault" name="terms">
                                             <label class="form-check-label text-light small" for="flexCheckDefault">
                                                 Al enviar, acepto los <a href="#"
                                                     class="text-decoration-underline">Términos y Condiciones</a>
                                             </label>
+                                            @error('terms')
+                                                <div class="text-danger">{{ $message }}</div>
+                                            @enderror
                                         </div>
                                     </div>
                                     <div class="col-lg-12">
                                         <input type="submit" value="Solicitar Ahora"
-                                            class="btn btn-dark wow fadeInUp text-light fs-14px">
+                                            class="btn btn-dark  text-light fs-14px">
                                     </div>
                                 </div>
                             </form>
+
+
                         </div>
                     </div>
                 </div>

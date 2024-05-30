@@ -8,7 +8,7 @@
                         <div class="text text-white">
                             <i class="fas fa-bullhorn"></i>
                             <strong>¿No sabes como escalar tu Negocio? </strong>
-                            <span>Descubre cómo podemos impulsar tu transformación digital <a href="#"
+                            <span>Descubre cómo podemos impulsar tu transformación digital <a href="{{ route('contactos') }}"
                                     class="p-0"><u>Contactanos</u></a></span>
                         </div>
                     </div>
@@ -36,7 +36,7 @@
 
 <nav class="navbar navbar-expand-lg navbar-light style-1">
     <div class="container">
-        <a class="navbar-brand" href="{{ route('inicio') }}" data-scroll-nav="0">
+        <a class="navbar-brand" href="{{ route('inicio') }}">
             <img src="{{ asset('assets/img/LOGOSIGLO180x54.png') }}" alt="">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
@@ -45,22 +45,22 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item dropdown">
+                {{-- <li class="nav-item dropdown">
                     <a class="nav-link" href="{{ route('inicio') }}">
                         Inicio
                     </a>
-                </li>
+                </li> --}}
                 <li class="nav-item dropdown">
                     <a class="nav-link active" data-scroll-nav="1">
                         Siglo Tecnológico
                     </a>
                 </li>
                 <li class="nav-item dropdown">
-                    <a class="nav-link" data-scroll-nav="2">
+                    <a  href="{{ route('services') }}" class="nav-link" >
                         Servicios
                     </a>
                 </li>
-                <li class="nav-item">
+               {{--  <li class="nav-item">
                     <a class="nav-link" data-scroll-nav="3">
                         Productos
                     </a>
@@ -69,7 +69,7 @@
                     <a class="nav-link" data-scroll-nav="6">
                         Noticias
                     </a>
-                </li>
+                </li> --}}
             </ul>
             <div class="nav-side">
                 <div class="hotline pe-4">
@@ -84,7 +84,7 @@
                     </div>
                 </div>
                 <div class="qoute-nav ps-4">
-                    <a href="#0" class="btn sm-butn butn-gard border-0 text-white" data-scroll-nav="7">
+                    <a href="{{ route('contactos') }}" class="btn sm-butn butn-gard border-0 text-white" >
                         <span>Contactos</span>
                     </a>
                 </div>

@@ -43,69 +43,76 @@
             <div class="container">
                 <div class="content">
                     <div class="row justify-content-center">
+                        @if (session('success'))
+                            <div class="alert alert-success">
+                                {{ session('success') }}
+                            </div>
+                        @endif
+                
+                        @if ($errors->any())
+                            <div class="alert alert-danger">
+                                <ul>
+                                    @foreach ($errors->all() as $error)
+                                        <li>{{ $error }}</li>
+                                    @endforeach
+                                </ul>
+                            </div>
+                        @endif
+                
                         <div class="col-lg-8">
-                            <form action="contact.php" class="form" method="post">
-                                <p class="text-center text-danger fs-12px mb-30">Los campos marcados con * son obligatorios
-                                </p>
+                            <form class="form" action="{{ route('contactoinfo.store') }}" method="post">
+                                @csrf
+                                <p class="text-center text-danger fs-12px mb-30">Los campos marcados con * son obligatorios</p>
                                 <div class="row">
                                     <div class="col-lg-6">
                                         <div class="form-group mb-20">
-                                            <input type="text" name="name" class="form-control" placeholder="Nombre">
+                                            <input type="text" name="name" class="form-control" placeholder="Nombre *" required>
                                         </div>
                                     </div>
                                     <div class="col-lg-6">
                                         <div class="form-group mb-20">
-                                            <input type="text" name="email" class="form-control"
-                                                placeholder="Correo Electrónico *">
+                                            <input type="email" name="email" class="form-control" placeholder="Correo Electrónico *" required>
                                         </div>
                                     </div>
                                     <div class="col-lg-6">
                                         <div class="form-group mb-20">
-                                            <input type="text" name="phone" class="form-control"
-                                                placeholder="Número de Teléfono (opcional)">
+                                            <input type="text" name="phone" class="form-control" placeholder="Número de Teléfono (opcional)">
                                         </div>
                                     </div>
                                     <div class="col-lg-6">
                                         <div class="form-group mb-20">
-                                            <input type="text" name="company" class="form-control"
-                                                placeholder="Nombre de la Empresa (opcional)">
+                                            <input type="text" name="company" class="form-control" placeholder="Nombre de la Empresa (opcional)">
                                         </div>
                                     </div>
                                     <div class="col-lg-12">
                                         <div class="form-group mb-20">
-                                            <select name="option" class="form-select">
-                                                <option value="how can we help" selected>Selecciona el motivo de tu consulta
-                                                </option>
+                                            <select name="option" class="form-select" required>
+                                                <option value="" disabled selected>Selecciona el motivo de tu consulta *</option>
                                                 <option value="consultoría">Consultoría en Transformación Digital</option>
                                                 <option value="desarrollo">Desarrollo de Aplicaciones Empresariales</option>
-                                                <option value="inteligencia">Inteligencia Artificial y Machine Learning
-                                                </option>
+                                                <option value="inteligencia">Inteligencia Artificial y Machine Learning</option>
                                                 <option value="seguridad">Seguridad Informática y Ciberseguridad</option>
                                                 <option value="cloud">Servicios en la Nube (Cloud Computing)</option>
-                                                <option value="iot">Internet de las Cosas (IoT) y Dispositivos Conectados
-                                                </option>
+                                                <option value="iot">Internet de las Cosas (IoT) y Dispositivos Conectados</option>
                                                 <option value="analisis">Análisis de Datos y Big Data</option>
                                             </select>
                                         </div>
                                     </div>
                                     <div class="col-lg-12">
                                         <div class="form-group">
-                                            <textarea rows="10" class="form-control" placeholder="Escribe tu mensaje aquí"></textarea>
+                                            <textarea rows="10" name="message" class="form-control" placeholder="Escribe tu mensaje aquí *" required></textarea>
                                         </div>
                                     </div>
                                     <div class="col-lg-12 text-center">
                                         <div class="form-check d-inline-flex mt-30 mb-30">
-                                            <input class="form-check-input me-2 mt-0" type="checkbox" value=""
-                                                id="flexCheckDefault">
+                                            <input class="form-check-input me-2 mt-0" type="checkbox" name="terms" id="flexCheckDefault" required>
                                             <label class="form-check-label small" for="flexCheckDefault">
-                                                Al enviar, acepto los <a href="#"
-                                                    class="text-decoration-underline">Términos y Condiciones</a>
+                                                Al enviar, acepto los <a href="#" class="text-decoration-underline">Términos y Condiciones</a>
                                             </label>
                                         </div>
                                     </div>
                                     <div class="col-lg-12 text-center">
-                                        <input type="submit" value="Enviar Solicitud"
-                                            class="btn rounded-pill bg-blue4 fw-bold text-white text-light fs-12px">
+                                        <input type="submit" value="Enviar Solicitud" class="btn rounded-pill bg-blue4 fw-bold text-white text-light fs-12px">
                                     </div>
                                 </div>
                             </form>
@@ -114,6 +121,7 @@
                     <img src="assets/img/icons/contact_a.png" alt="" class="contact_a">
                     <img src="assets/img/icons/contact_message.png" alt="" class="contact_message">
                 </div>
+                
             </div>
         </section>
 

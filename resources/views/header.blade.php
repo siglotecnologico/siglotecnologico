@@ -15,15 +15,10 @@
                             estratégico para convertir visiones innovadoras en soluciones digitales excepcionales.
                         </div>
                         <div class="bttns mt-5">
-                            <a href="pagina-servicios-5.html" class="btn btn-dark">
+                            <a  href="{{ route('services') }}" class="btn btn-dark">
                                 <span>Nuestros Servicios</span>
                             </a>
-                            <a href="https://youtu.be/pGbIOC83-So?t=21" data-lity class="vid-btn">
-                                <i class="bi bi-play wow heartBeat infinite slow"></i>
-                                <span>
-                                    Demostraciones <br> de Siglo Tecnológico
-                                </span>
-                            </a>
+                         
                         </div>
                     </div>
                 </div>
