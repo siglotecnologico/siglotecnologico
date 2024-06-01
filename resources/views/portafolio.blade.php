@@ -9,7 +9,8 @@
                     <div class="col-lg-7">
                         <div class="cont text-center">
 
-                            <h1> GREGORIO OSORIO <br> Portafolio </h1>
+                            <h1> Descubre Mis Creaciones en el Mundo del Desarrollo </h1> <br>
+                            <h2 class="mb-20 text-capitalize">Portafolio</h2>
                             <a href="#paginasweb" class="btn rounded-pill bg-white fw-bold color-darkBlue mt-50 me-2">
                                 <small class="text-uppercase"> Paginas Web </small>
                             </a>
@@ -32,42 +33,36 @@
                     <div class="imgs one">
 
                         <div class="top layer" data-depth="0.10">
-
+                            <img src="landing-preview/img/header/mokupLaptop1366x743.png" alt="">
                         </div>
-
-                        <div class="bottm btm1 layer" data-depth="0.15">
-
-                        </div>
-                        <div class="bottm btm2 layer" data-depth="0.20">
-
-                        </div>
+ 
                     </div>
 
                     <div class="imgs three">
 
                         <div class="top layer" data-depth="0.10">
-
+                            <img src="landing-preview/img/header/4.jpg" alt="">
                         </div>
 
                         <div class="bottm btm1 vers layer" data-depth="0.15">
-
+                            <img src="landing-preview/img/header/4.jpg" alt="">
                         </div>
                         <div class="bottm btm2 vers layer" data-depth="0.20">
-
+                            <img src="landing-preview/img/header/4.jpg" alt="">
                         </div>
                     </div>
 
                     <div class="imgs four">
 
                         <div class="top layer" data-depth="0.10">
-
+                            <img src="landing-preview/img/header/servicios.png" alt="">
                         </div>
 
                         <div class="bottm btm1 layer" data-depth="0.15">
-
+                            <img src="landing-preview/img/header/servicios.png" alt="">
                         </div>
                         <div class="bottm btm2 layer" data-depth="0.20">
-
+                            <img src="landing-preview/img/header/servicios.png" alt="">
                         </div>
                     </div>
                 </div>
@@ -77,35 +72,35 @@
                     <div class="imgs two">
 
                         <div class="top layer" data-depth="0.10">
-
+                            <img src="landing-preview/img/header/11.jpg" alt="">
                         </div>
 
                         <div class="bottm btm1 vers layer" data-depth="0.15">
-
+                            <img src="landing-preview/img/header/11.jpg" alt="">
                         </div>
                         <div class="bottm btm2 vers layer" data-depth="0.20">
-
+                            <img src="landing-preview/img/header/11.jpg" alt="">
                         </div>
                     </div>
 
                     <div class="imgs five">
 
                         <div class="top layer" data-depth="0.10">
-
+                            <img src="landing-preview/img/header/5.jpg" alt="">
                         </div>
 
                         <div class="bottm btm1 layer" data-depth="0.15">
-
+                            <img src="landing-preview/img/header/5.jpg" alt="">
                         </div>
                         <div class="bottm btm2 layer" data-depth="0.20">
-
+                            <img src="landing-preview/img/header/5.jpg" alt="">
                         </div>
                     </div>
 
                     <div class="mob">
 
                         <div class="layer" data-depth="0.10">
-
+                            <img src="landing-preview/img/header/mokupTelefono500x977.png" alt="">
                         </div>
                     </div>
                 </div>
@@ -178,10 +173,10 @@
                     <div class="col-lg-6 col-md-10">
                         <div class="sec-head text-center mb-40">
                             <h2 class="num"><span class="color-grd">WEB<span class="thin"></span></span></h2>
-                            <h3 class="text-capitalize">Algo de lo que hemos hecho</h3>
+                            <h3 class="text-capitalize">Proyectos Destacados en Desarrollo Web</h3>
                             <p class="color-777">Como desarrollador web, he creado estas páginas web utilizando una
                                 variedad de tecnologías para diferentes propósitos y sectores. Cada página web refleja mi
-                                habilidad para crear diseños modernos y funcionales que satisfacen las necesidades de los
+                                habilidad para crear diseños modernos y funcionales que satisfacen las necesidades de mis
                                 clientes.</p>
                         </div>
                     </div>
@@ -286,7 +281,7 @@
                     <div class="col-lg-9">
                         <div class="tablet">
                             <div class="img">
-                                <img src="landing-preview/img/inner_pages/about.png" alt="">
+                                <img src="landing-preview/img/header/inicio1.png" alt="">
                             </div>
                             <img src="landing-preview/img/ipad1.png" alt="" class="tablet_img">
                             <img src="landing-preview/img/ref1.png" alt="" class="ref">
@@ -334,8 +329,8 @@
                 <div class="row justify-content-center">
                     <div class="sec-head text-center mb-80">
                         <h3 class="num"><span class="gr">10<span class="thin">+</span></span></h3>
-                        <h2>Aplicaciones Web y Proyectos Recientes</h2>
-                        <p class="color-777">Descubre una colección de aplicaciones web y proyectos recientes que he
+                        <h2>Aplicaciones Web y Proyectos </h2>
+                        <p class="color-777">Descubre una colección de aplicaciones web y proyectos  que he
                             desarrollado. Cada uno demuestra mi compromiso con la calidad y la innovación.</p>
                     </div>
                     <div class="col-12">
@@ -468,7 +463,7 @@
                     </div>
                     <div class="col-lg-6 offset-lg-1">
                         <div class="img">
-                            <img src="landing-preview/img/b3.png" alt="">
+                            <img src="landing-preview/img/header/pag.png" alt="">
                         </div>
                     </div>
                 </div>
@@ -555,7 +550,7 @@
                 <div class="row">
                     <div class="col-lg-6">
                         <div class="img md-mb50">
-                            <img src="landing-preview/img/b2.png" alt="">
+                            <img src="{{ asset('landing-preview/img/header/mokupLaptop3.png')}}" alt="">
                         </div>
                     </div>
                     <div class="col-lg-5 offset-lg-1 valign">
