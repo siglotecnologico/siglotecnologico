@@ -51,7 +51,7 @@
                     </a>
                 </li> --}}
                 <li class="nav-item dropdown">
-                    <a class="nav-link active" data-scroll-nav="1">
+                    <a href="{{ route('inicio') }}" class="nav-link" >{{-- active, devo realizar esa funcion --}}
                         Siglo Tecnológico
                     </a>
                 </li>
@@ -60,12 +60,12 @@
                         Servicios
                     </a>
                 </li>
-               {{--  <li class="nav-item">
-                    <a class="nav-link" data-scroll-nav="3">
-                        Productos
+               <li class="nav-item">
+                    <a href="{{ route('portafolio') }}" class="nav-link"  >
+                        Portafolio
                     </a>
                 </li>
-                <li class="nav-item">
+                  {{--<li class="nav-item">
                     <a class="nav-link" data-scroll-nav="6">
                         Noticias
                     </a>

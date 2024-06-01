@@ -24,6 +24,11 @@ Route::get('services', function(){
 Route::get('contactos', function(){
     return view('contactos');
 })->name('contactos');
+Route::get('portafolio', function(){
+    return view('portafolio');
+})->name('portafolio');
+
 Route::post('/formularioContacto', [ContactoController::class, 'store'])->name('contacto.store');
 Route::post('/formularioContactoinfo', [ContactoController::class, 'contactoinfo'])->name('contactoinfo.store');
 Route::post('/formulariosuscripcion', [ContactoController::class, 'suscripcion'])->name('suscripcion.store');
+

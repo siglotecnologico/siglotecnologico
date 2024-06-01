@@ -32,6 +32,8 @@
     <link rel="stylesheet" href="{{ asset('assets/css/lib/swiper.min.css') }}" />
     <!-- ====== global style ====== -->
     <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}" />
+    <link rel="stylesheet" href="{{ asset('landing-preview/css/preview-style.css') }}" />
+
 </head>
 
 <body>
@@ -51,9 +53,11 @@
     <script src="{{ asset('assets/js/lib/jquery.waypoints.min.js') }}"></script>
     <script src="{{ asset('assets/js/lib/jquery.counterup.js') }}"></script>
     <!-- <script src="{{ asset('assets/js/lib/pace.js') }}"></script> -->
+    <script src="{{ asset('landing-preview/js/parallax.min.js') }}"></script>
+    <script src="{{ asset('landing-preview/js/countdown.js') }}"></script>
     <script src="{{ asset('assets/js/lib/scrollIt.min.js') }}"></script>
     <script src="{{ asset('assets/js/main.js') }}"></script>
-
+    <script src="{{ asset('landing-preview/js/demo.js') }}"></script>
 </body>
 
 </html>
