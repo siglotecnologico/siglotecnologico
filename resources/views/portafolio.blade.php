@@ -14,7 +14,7 @@
                             <a href="#paginasweb" class="btn rounded-pill bg-white fw-bold color-darkBlue mt-50 me-2">
                                 <small class="text-uppercase"> Paginas Web </small>
                             </a>
-                            <a href="https://siglotecnologico.com/servicios" target="_blank"
+                            <a href="https://siglotecnologico.com/services" target="_blank"
                                 class="btn rounded-pill bg-blue4 fw-bold text-white mt-50">
                                 <small class="text-uppercase"> Nuestros Servicios </small>
                             </a>
