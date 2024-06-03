@@ -290,6 +290,42 @@
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6">
+                        <div class="item">
+                            <a href="https://siglotecnologico.com/" target="_blank">
+                                <div class="img">
+                                    <img src="{{ asset('assets/img/portafolio/siglotecnologico.png') }}" alt="">
+                                </div>
+                                <div class="info">
+                                    <span>Empresa de Software</span>
+                                    <h6>Siglo Tecnológico 2022</h6>
+                                </div>
+                            </a>
+                            <div class="technologies">
+                                <h6>Tecnologías Desarrolladas:</h6>
+                                <ul>
+                                    <li>PHP</li>
+                                    <li>Laravel Framework</li>
+                                    <li>MySQL</li>
+                                    <li>HTML</li>
+                                    <li>CSS</li>
+                                    <li>JavaScript</li>
+                                    <li>Blade</li>
+                                    <li>Vue.js</li>
+                                </ul>
+                                <ul>
+                                    <li>Laravel Mail</li>
+                                    <li>SwiftMailer</li>
+                                    <li>Mailtrap</li>
+                                    <li>SMTP Providers</li>
+                                    <li>REST API</li>
+                                    <li>SASS/SCSS</li>
+                                    <li>Docker</li>
+                                    <li>Git</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
                         <div class="item item_ribbon">
                             <a href="https://intercobec.com/" target="_blank">
                                 <div class="img">
