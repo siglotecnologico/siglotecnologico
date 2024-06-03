@@ -33,7 +33,41 @@
     <!-- ====== global style ====== -->
     <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}" />
     <link rel="stylesheet" href="{{ asset('landing-preview/css/preview-style.css') }}" />
+    <style>
 
+        .item .technologies {
+            margin-top: 20px;
+        }
+        
+        .item .technologies h6 {
+            font-size: 16px;
+            font-weight: bold;
+            color: #555;
+            margin-bottom: 10px;
+        }
+        
+        .item .technologies ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        
+        .item .technologies ul li {
+            background: #f1f1f1;
+            padding: 8px 12px;
+            border-radius: 5px;
+            margin-bottom: 5px;
+            font-size: 14px;
+            color: #333;
+            display: inline-block;
+            margin-right: 5px;
+        }
+        
+        .item .technologies ul li::before {
+            content: '•';
+            color: #007BFF;
+            margin-right: 5px;
+        }
+        </style>
 </head>
 
 <body>

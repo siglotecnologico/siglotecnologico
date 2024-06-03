@@ -17904,3 +17904,36 @@ header.style-6 .info h1 span small {
   padding: 0;
   list-style-type: none;
 }
+.item {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 15px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+}
+
+.item:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.item .img img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.item .info {
+    margin-top: 15px;
+}
+
+.item .info span {
+    font-size: 14px;
+    color: #999;
+}
+
+.item .info h6 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}

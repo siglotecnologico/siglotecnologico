@@ -194,8 +194,33 @@
                                     <h6>Fundación Dios es Bueno 2024</h6>
                                 </div>
                             </a>
+                            <div class="technologies">
+                                <h6>Tecnologías Desarrolladas:</h6>
+                                <div class="tech-columns">
+                                    <ul>
+                                        <li>PHP</li>
+                                        <li>Laravel Framework</li>
+                                        <li>MySQL</li>
+                                        <li>HTML</li>
+                                        <li>CSS</li>
+                                        <li>JavaScript</li>
+                                        <li>Blade</li>
+                                        <li>Vue.js</li>
+                                    </ul>
+                                    <ul>
+                                        <li>React</li>
+                                        <li>Tailwind CSS</li>
+                                        <li>Bootstrap</li>
+                                        <li>Laravel Mix</li>
+                                        <li>Composer</li>
+                                        <li>npm/yarn</li>
+                                        <li>REST API</li>
+                                        <li>Docker</li>
+                                    </ul>
+                                </div>
+                            </div>
                             <div class="new_demo_label">
-                                <span> hot </span>
+                                <span> Dv </span>
                             </div>
                         </div>
                     </div>
@@ -210,6 +235,25 @@
                                     <h6>DatamarketingPlus 2022</h6>
                                 </div>
                             </a>
+                            <div class="technologies">
+                                <h6>Tecnologías Desarrolladas:</h6>
+                                    <ul>
+                                        <li>PHP</li>
+                                        <li>MySQL</li>
+                                        <li>HTML</li>
+                                        <li>CSS</li>
+                                        <li>JavaScript</li>
+                                        <li>jQuery</li>
+                                        <li>Bootstrap</li>
+                                        <li>WordPress Theme Development</li>
+                                    </ul>
+                                    <ul>
+                                        <li>WordPress Plugin Development</li>
+                                        <li>WooCommerce</li>
+                                        <li>Yoast SEO</li>
+                                        <li>Elementor</li>
+                                    </ul>
+                            </div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6">
@@ -223,6 +267,26 @@
                                     <h6>Estudio Jurídico Tagle 2022</h6>
                                 </div>
                             </a>
+                            <div class="technologies">
+                                <h6>Tecnologías Desarrolladas:</h6>
+                                    <ul>
+                                        <li>PHP</li>
+                                        <li>MySQL</li>
+                                        <li>HTML</li>
+                                        <li>CSS</li>
+                                        <li>JavaScript</li>
+                                        <li>jQuery</li>
+                                        <li>Bootstrap</li>
+                                        <li>WordPress Theme Development</li>
+                                    </ul>
+                                    <ul>
+                                        <li>WordPress Plugin Development</li>
+                                        <li>WooCommerce</li>
+                                        <li>Yoast SEO</li>
+                                        <li>Elementor</li>
+                                        <li>REST API</li> 
+                                    </ul>
+                            </div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6">
@@ -236,6 +300,26 @@
                                     <h6>Estudio Jurídico Intercobec 2023</h6>
                                 </div>
                             </a>
+                            <div class="technologies">
+                                <h6>Tecnologías Desarrolladas:</h6>
+                                    <ul>
+                                        <li>PHP</li>
+                                        <li>MySQL</li>
+                                        <li>HTML</li>
+                                        <li>CSS</li>
+                                        <li>JavaScript</li>
+                                        <li>jQuery</li>
+                                        <li>Bootstrap</li>
+                                        <li>WordPress Theme Development</li>
+                                    </ul>
+                                    <ul>
+                                        <li>WordPress Plugin Development</li>
+                                        <li>WooCommerce</li>
+                                        <li>Yoast SEO</li>
+                                        <li>Elementor</li>
+                                        <li>REST API</li>  
+                                    </ul>
+                            </div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6">
@@ -249,6 +333,26 @@
                                     <h6>Carbon & Leña 2022</h6>
                                 </div>
                             </a>
+                            <div class="technologies">
+                                <h6>Tecnologías Desarrolladas:</h6>
+                                    <ul>
+                                        <li>PHP</li>
+                                        <li>MySQL</li>
+                                        <li>HTML</li>
+                                        <li>CSS</li>
+                                        <li>JavaScript</li>
+                                        <li>jQuery</li>
+                                        <li>Bootstrap</li>
+                                        <li>WordPress Theme Development</li>
+                                    </ul>
+                                    <ul>
+                                        <li>WordPress Plugin Development</li>
+                                        <li>WooCommerce</li>
+                                        <li>Yoast SEO</li>
+                                        <li>Elementor</li>
+                                        <li>REST API</li>  
+                                    </ul>
+                            </div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6">
@@ -263,6 +367,26 @@
                                     <h6>Movistar Ecuador 2024</h6>
                                 </div>
                             </a>
+                            <div class="technologies">
+                                <h6>Tecnologías Desarrolladas:</h6>
+                                    <ul>
+                                        <li>PHP</li>
+                                        <li>MySQL</li>
+                                        <li>HTML</li>
+                                        <li>CSS</li>
+                                        <li>JavaScript</li>
+                                        <li>jQuery</li>
+                                        <li>Bootstrap</li>
+                                        <li>WordPress Theme Development</li>
+                                    </ul>
+                                    <ul>
+                                        <li>WordPress Plugin Development</li>
+                                        <li>WooCommerce</li>
+                                        <li>Yoast SEO</li>
+                                        <li>Elementor</li>
+                                        <li>REST API</li>  
+                                    </ul>
+                            </div>
                         </div>
                     </div>
 
