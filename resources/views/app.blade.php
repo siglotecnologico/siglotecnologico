@@ -24,7 +24,6 @@
     <!-- ====== font family ====== -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
         rel="stylesheet">
-
     <link rel="stylesheet" href="{{ asset('assets/css/lib/all.min.css') }}" />
     <link rel="stylesheet" href="{{ asset('assets/css/lib/animate.css') }}" />
     <link rel="stylesheet" href="{{ asset('assets/css/lib/jquery.fancybox.css') }}" />
@@ -33,6 +32,7 @@
     <!-- ====== global style ====== -->
     <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}" />
     <link rel="stylesheet" href="{{ asset('landing-preview/css/preview-style.css') }}" />
+    
     <style>
 
         .item .technologies {

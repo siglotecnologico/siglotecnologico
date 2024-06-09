@@ -35,7 +35,7 @@
                         <div class="top layer" data-depth="0.10">
                             <img src="landing-preview/img/header/mokupLaptop1366x743.png" alt="">
                         </div>
- 
+
                     </div>
 
                     <div class="imgs three">
@@ -160,9 +160,6 @@
             </div>
             <div class="pattern bg-img"></div>
         </section>
-
-
-
         <!-- ==================== End feat ==================== -->
 
 
@@ -181,7 +178,160 @@
                         </div>
                     </div>
                 </div>
+                <!-- ==================== Start all-feat ==================== -->
+                <section class="all-feat" data-overlay-dark="0">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="main-marq">
+                                    <div class="slide-har st1">
+
+                                        <div class="box">
+                                            <!-- Skills -->
+                                            <div class="item d-flex align-items-center justify-content-between">
+                                                <span class="icon pe-7s-umbrella"></span>
+                                                <h6>PHP</h6>
+                                            </div>
+                                            <div class="item d-flex align-items-center justify-content-between">
+                                                <span class="icon pe-7s-users"></span>
+                                                <h6>Laravel</h6>
+                                            </div>
+                                            <div class="item d-flex align-items-center justify-content-between">
+                                                <span class="icon pe-7s-speaker"></span>
+                                                <h6>Vue</h6>
+                                            </div>
+                                            <div class="item d-flex align-items-center justify-content-between">
+                                                <span class="icon pe-7s-github"></span>
+                                                <h6>Git</h6>
+                                            </div>
+                                            <div class="item d-flex align-items-center justify-content-between">
+                                                <span class="icon pe-7s-javascript"></span>
+                                                <h6>JavaScript</h6>
+                                            </div>
+                                            <div class="item d-flex align-items-center justify-content-between">
+                                                <span class="icon pe-7s-anchor"></span>
+                                                <h6>Livewire</h6>
+                                            </div>
+                                            <div class="item d-flex align-items-center justify-content-between">
+                                                <span class="icon pe-7s-plane"></span>
+                                                <h6>React</h6>
+                                            </div>
+                                            <div class="item d-flex align-items-center justify-content-between">
+                                                <span class="icon pe-7s-database"></span>
+                                                <h6>MySQL</h6>
+                                            </div>
+                                            <div class="item d-flex align-items-center justify-content-between">
+                                                <span class="icon pe-7s-server"></span>
+                                                <h6>SQL Server</h6>
+                                            </div>
+                                            <div class="item d-flex align-items-center justify-content-between">
+                                                <span class="icon pe-7s-plugin"></span>
+                                                <h6>PostgreSQL</h6>
+                                            </div>
+                                            <div class="item d-flex align-items-center justify-content-between">
+                                                <span class="icon pe-7s-pen"></span>
+                                                <h6>Bootstrap</h6>
+                                            </div>
+                                            <div class="item d-flex align-items-center justify-content-between">
+                                                <span class="icon pe-7s-css"></span>
+                                                <h6>CSS</h6>
+                                            </div>
+                                            <div class="item d-flex align-items-center justify-content-between">
+                                                <span class="icon pe-7s-html5"></span>
+                                                <h6>HTML</h6>
+                                            </div>
+                                            <div class="item d-flex align-items-center justify-content-between">
+                                                <span class="icon pe-7s-edit"></span>
+                                                <h6>WordPress</h6>
+                                            </div>
+                                            <div class="item d-flex align-items-center justify-content-between">
+                                                <span class="icon pe-7s-phone"></span>
+                                                <h6>Asterisk</h6>
+                                            </div>
+                                            <div class="item d-flex align-items-center justify-content-between">
+                                                <span class="icon pe-7s-call"></span>
+                                                <h6>ViciBox</h6>
+                                            </div>
+                                            <div class="item d-flex align-items-center justify-content-between">
+                                                <span class="icon pe-7s-tux"></span>
+                                                <h6>Linux</h6>
+                                            </div>
+                                            <div class="item d-flex align-items-center justify-content-between">
+                                                <span class="icon pe-7s-windows"></span>
+                                                <h6>Windows</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="slide-har st2">
+                                        <!-- Cursos -->
+                                        <div class="box">
+                                            <div class="item d-flex align-items-center justify-content-between">
+                                                <span class="icon pe-7s-study"></span>
+                                                <h6>PHP Avanzado</h6>
+                                            </div>
+                                            <div class="item d-flex align-items-center justify-content-between">
+                                                <span class="icon pe-7s-study"></span>
+                                                <h6>Data Science e Inteligencia Artificial</h6>
+                                            </div>
+                                            <div class="item d-flex align-items-center justify-content-between">
+                                                <span class="icon pe-7s-study"></span>
+                                                <h6>PHP con Laravel</h6>
+                                            </div>
+                                            <div class="item d-flex align-items-center justify-content-between">
+                                                <span class="icon pe-7s-study"></span>
+                                                <h6>Administración de PostgreSQL</h6>
+                                            </div>
+                                            <div class="item d-flex align-items-center justify-content-between">
+                                                <span class="icon pe-7s-study"></span>
+                                                <h6>Bases para Analítica y Ciencia de Datos</h6>
+                                            </div>
+                                            <div class="item d-flex align-items-center justify-content-between">
+                                                <span class="icon pe-7s-study"></span>
+                                                <h6>Fundamentos de Node.js</h6>
+                                            </div>
+                                            <div class="item d-flex align-items-center justify-content-between">
+                                                <span class="icon pe-7s-study"></span>
+                                                <h6>Redes (Network Installer Specialist)</h6>
+                                            </div>
+                                            <div class="item d-flex align-items-center justify-content-between">
+                                                <span class="icon pe-7s-study"></span>
+                                                <h6>IA para Data y Machine Learning</h6>
+                                            </div>
+                                            <div class="item d-flex align-items-center justify-content-between">
+                                                <span class="icon pe-7s-study"></span>
+                                                <h6>Bases de Datos</h6>
+                                            </div>
+                                            <div class="item d-flex align-items-center justify-content-between">
+                                                <span class="icon pe-7s-study"></span>
+                                                <h6>API REST con Express.js</h6>
+                                            </div>
+                                            <div class="item d-flex align-items-center justify-content-between">
+                                                <span class="icon pe-7s-study"></span>
+                                                <h6>Fundamentos de Python</h6>
+                                            </div>
+                                            <div class="item d-flex align-items-center justify-content-between">
+                                                <span class="icon pe-7s-study"></span>
+                                                <h6>Desarrollo y Deployment en WordPress</h6>
+                                            </div>
+                                            <div class="item d-flex align-items-center justify-content-between">
+                                                <span class="icon pe-7s-study"></span>
+                                                <h6>Fundamentos de Cloud Computing</h6>
+                                            </div>
+                                            <div class="item d-flex align-items-center justify-content-between">
+                                                <span class="icon pe-7s-study"></span>
+                                                <h6>Comprehensions, Funciones de Python</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <br/>
+                <!-- ==================== End all-feat ==================== -->
                 <div class="row">
+                    <h2  class="sub-title inline gr-sunrise-text my-3 text-uppercase">Paginas Web</h2>
                     <div class="col-lg-4 col-md-6">
                         <div class="item item_ribbon red">
                             <a href="fundaciondiosesbuenofielyjusto.org" target="_blank">
@@ -237,22 +387,22 @@
                             </a>
                             <div class="technologies">
                                 <h6>Tecnologías Desarrolladas:</h6>
-                                    <ul>
-                                        <li>PHP</li>
-                                        <li>MySQL</li>
-                                        <li>HTML</li>
-                                        <li>CSS</li>
-                                        <li>JavaScript</li>
-                                        <li>jQuery</li>
-                                        <li>Bootstrap</li>
-                                        <li>WordPress Theme Development</li>
-                                    </ul>
-                                    <ul>
-                                        <li>WordPress Plugin Development</li>
-                                        <li>WooCommerce</li>
-                                        <li>Yoast SEO</li>
-                                        <li>Elementor</li>
-                                    </ul>
+                                <ul>
+                                    <li>PHP</li>
+                                    <li>MySQL</li>
+                                    <li>HTML</li>
+                                    <li>CSS</li>
+                                    <li>JavaScript</li>
+                                    <li>jQuery</li>
+                                    <li>Bootstrap</li>
+                                    <li>WordPress Theme Development</li>
+                                </ul>
+                                <ul>
+                                    <li>WordPress Plugin Development</li>
+                                    <li>WooCommerce</li>
+                                    <li>Yoast SEO</li>
+                                    <li>Elementor</li>
+                                </ul>
                             </div>
                         </div>
                     </div>
@@ -269,23 +419,23 @@
                             </a>
                             <div class="technologies">
                                 <h6>Tecnologías Desarrolladas:</h6>
-                                    <ul>
-                                        <li>PHP</li>
-                                        <li>MySQL</li>
-                                        <li>HTML</li>
-                                        <li>CSS</li>
-                                        <li>JavaScript</li>
-                                        <li>jQuery</li>
-                                        <li>Bootstrap</li>
-                                        <li>WordPress Theme Development</li>
-                                    </ul>
-                                    <ul>
-                                        <li>WordPress Plugin Development</li>
-                                        <li>WooCommerce</li>
-                                        <li>Yoast SEO</li>
-                                        <li>Elementor</li>
-                                        <li>REST API</li> 
-                                    </ul>
+                                <ul>
+                                    <li>PHP</li>
+                                    <li>MySQL</li>
+                                    <li>HTML</li>
+                                    <li>CSS</li>
+                                    <li>JavaScript</li>
+                                    <li>jQuery</li>
+                                    <li>Bootstrap</li>
+                                    <li>WordPress Theme Development</li>
+                                </ul>
+                                <ul>
+                                    <li>WordPress Plugin Development</li>
+                                    <li>WooCommerce</li>
+                                    <li>Yoast SEO</li>
+                                    <li>Elementor</li>
+                                    <li>REST API</li>
+                                </ul>
                             </div>
                         </div>
                     </div>
@@ -338,23 +488,23 @@
                             </a>
                             <div class="technologies">
                                 <h6>Tecnologías Desarrolladas:</h6>
-                                    <ul>
-                                        <li>PHP</li>
-                                        <li>MySQL</li>
-                                        <li>HTML</li>
-                                        <li>CSS</li>
-                                        <li>JavaScript</li>
-                                        <li>jQuery</li>
-                                        <li>Bootstrap</li>
-                                        <li>WordPress Theme Development</li>
-                                    </ul>
-                                    <ul>
-                                        <li>WordPress Plugin Development</li>
-                                        <li>WooCommerce</li>
-                                        <li>Yoast SEO</li>
-                                        <li>Elementor</li>
-                                        <li>REST API</li>  
-                                    </ul>
+                                <ul>
+                                    <li>PHP</li>
+                                    <li>MySQL</li>
+                                    <li>HTML</li>
+                                    <li>CSS</li>
+                                    <li>JavaScript</li>
+                                    <li>jQuery</li>
+                                    <li>Bootstrap</li>
+                                    <li>WordPress Theme Development</li>
+                                </ul>
+                                <ul>
+                                    <li>WordPress Plugin Development</li>
+                                    <li>WooCommerce</li>
+                                    <li>Yoast SEO</li>
+                                    <li>Elementor</li>
+                                    <li>REST API</li>
+                                </ul>
                             </div>
                         </div>
                     </div>
@@ -371,23 +521,23 @@
                             </a>
                             <div class="technologies">
                                 <h6>Tecnologías Desarrolladas:</h6>
-                                    <ul>
-                                        <li>PHP</li>
-                                        <li>MySQL</li>
-                                        <li>HTML</li>
-                                        <li>CSS</li>
-                                        <li>JavaScript</li>
-                                        <li>jQuery</li>
-                                        <li>Bootstrap</li>
-                                        <li>WordPress Theme Development</li>
-                                    </ul>
-                                    <ul>
-                                        <li>WordPress Plugin Development</li>
-                                        <li>WooCommerce</li>
-                                        <li>Yoast SEO</li>
-                                        <li>Elementor</li>
-                                        <li>REST API</li>  
-                                    </ul>
+                                <ul>
+                                    <li>PHP</li>
+                                    <li>MySQL</li>
+                                    <li>HTML</li>
+                                    <li>CSS</li>
+                                    <li>JavaScript</li>
+                                    <li>jQuery</li>
+                                    <li>Bootstrap</li>
+                                    <li>WordPress Theme Development</li>
+                                </ul>
+                                <ul>
+                                    <li>WordPress Plugin Development</li>
+                                    <li>WooCommerce</li>
+                                    <li>Yoast SEO</li>
+                                    <li>Elementor</li>
+                                    <li>REST API</li>
+                                </ul>
                             </div>
                         </div>
                     </div>
@@ -405,26 +555,70 @@
                             </a>
                             <div class="technologies">
                                 <h6>Tecnologías Desarrolladas:</h6>
+                                <ul>
+                                    <li>PHP</li>
+                                    <li>MySQL</li>
+                                    <li>HTML</li>
+                                    <li>CSS</li>
+                                    <li>JavaScript</li>
+                                    <li>jQuery</li>
+                                    <li>Bootstrap</li>
+                                    <li>WordPress Theme Development</li>
+                                </ul>
+                                <ul>
+                                    <li>WordPress Plugin Development</li>
+                                    <li>WooCommerce</li>
+                                    <li>Yoast SEO</li>
+                                    <li>Elementor</li>
+                                    <li>REST API</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                </div>
+                <div class="row">
+                    <h2  class="sub-title inline gr-sunrise-text my-3 text-uppercase">Aplicaciones</h2>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="item item_ribbon red">
+                            <a href="{{ route('portafolio.damplus') }}" target="_blank">
+                                <div class="img">
+                                    <img src="{{ asset('assets/img/portafolio/aplicaciones/login.png') }}"
+                                        alt="">
+                                </div>
+                                <div class="info">
+                                    <span>Intranet </span>
+                                    <h6>Damplus 2018-2023</h6>
+                                </div>
+                            </a>
+                            <div class="technologies">
+                                <h6>Tecnologías Desarrolladas:</h6>
+                                <div class="tech-columns">
                                     <ul>
                                         <li>PHP</li>
+                                        <li>PYTHON</li>
+                                        <li>Laravel Framework</li>
+                                        <li>Vue.js</li>
                                         <li>MySQL</li>
                                         <li>HTML</li>
                                         <li>CSS</li>
                                         <li>JavaScript</li>
-                                        <li>jQuery</li>
-                                        <li>Bootstrap</li>
-                                        <li>WordPress Theme Development</li>
+                                        <li>Blade</li>
+                                       
                                     </ul>
                                     <ul>
-                                        <li>WordPress Plugin Development</li>
-                                        <li>WooCommerce</li>
-                                        <li>Yoast SEO</li>
-                                        <li>Elementor</li>
-                                        <li>REST API</li>  
+                                        <li>Bootstrap</li>
+                                        <li>Laravel Mix</li>
+                                        <li>Composer</li>
+                                        <li>npm/yarn</li>
+                                        <li>REST API</li>
                                     </ul>
+                                </div>
                             </div>
                         </div>
-                    </div>
+                    </div> 
 
 
 
@@ -454,7 +648,7 @@
 
 
         <!-- ==================== Start ==================== -->
-
+{{-- 
         <section class="box-gr">
             <div class="container-xxl box">
                 <div class="row">
@@ -477,7 +671,7 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> --}}
 
 
         <!-- ==================== End ==================== -->
@@ -490,7 +684,7 @@
                     <div class="sec-head text-center mb-80">
                         <h3 class="num"><span class="gr">10<span class="thin">+</span></span></h3>
                         <h2>Aplicaciones Web y Proyectos </h2>
-                        <p class="color-777">Descubre una colección de aplicaciones web y proyectos  que he
+                        <p class="color-777">Descubre una colección de aplicaciones web y proyectos que he
                             desarrollado. Cada uno demuestra mi compromiso con la calidad y la innovación.</p>
                     </div>
                     <div class="col-12">
@@ -499,7 +693,7 @@
 
                                 <div class="box">
                                     <div class="item">
-                                        <img src="landing-preview/img/header/1.jpg" alt="">
+                                        <img src="{{ asset('assets/img/portafolio/aplicaciones/1-ADMINISTRACION-CARGOS-LISTA.png') }}" alt="">
                                     </div>
                                     <div class="item">
                                         <img src="landing-preview/img/header/2.jpg" alt="">
@@ -710,7 +904,7 @@
                 <div class="row">
                     <div class="col-lg-6">
                         <div class="img md-mb50">
-                            <img src="{{ asset('landing-preview/img/header/mokupLaptop3.png')}}" alt="">
+                            <img src="{{ asset('landing-preview/img/header/mokupLaptop3.png') }}" alt="">
                         </div>
                     </div>
                     <div class="col-lg-5 offset-lg-1 valign">
@@ -733,162 +927,7 @@
 
         <!-- ==================== End Responsive ==================== -->
 
-        <!-- ==================== Start all-feat ==================== -->
 
-        <section class="all-feat" data-overlay-dark="0">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-12">
-                        <div class="main-marq">
-                            <div class="slide-har st1">
-
-                                <div class="box">
-                                    <!-- Skills -->
-                                    <div class="item d-flex align-items-center justify-content-between">
-                                        <span class="icon pe-7s-umbrella"></span>
-                                        <h6>PHP</h6>
-                                    </div>
-                                    <div class="item d-flex align-items-center justify-content-between">
-                                        <span class="icon pe-7s-users"></span>
-                                        <h6>Laravel</h6>
-                                    </div>
-                                    <div class="item d-flex align-items-center justify-content-between">
-                                        <span class="icon pe-7s-speaker"></span>
-                                        <h6>Vue</h6>
-                                    </div>
-                                    <div class="item d-flex align-items-center justify-content-between">
-                                        <span class="icon pe-7s-github"></span>
-                                        <h6>Git</h6>
-                                    </div>
-                                    <div class="item d-flex align-items-center justify-content-between">
-                                        <span class="icon pe-7s-javascript"></span>
-                                        <h6>JavaScript</h6>
-                                    </div>
-                                    <div class="item d-flex align-items-center justify-content-between">
-                                        <span class="icon pe-7s-anchor"></span>
-                                        <h6>Livewire</h6>
-                                    </div>
-                                    <div class="item d-flex align-items-center justify-content-between">
-                                        <span class="icon pe-7s-plane"></span>
-                                        <h6>React</h6>
-                                    </div>
-                                    <div class="item d-flex align-items-center justify-content-between">
-                                        <span class="icon pe-7s-database"></span>
-                                        <h6>MySQL</h6>
-                                    </div>
-                                    <div class="item d-flex align-items-center justify-content-between">
-                                        <span class="icon pe-7s-server"></span>
-                                        <h6>SQL Server</h6>
-                                    </div>
-                                    <div class="item d-flex align-items-center justify-content-between">
-                                        <span class="icon pe-7s-plugin"></span>
-                                        <h6>PostgreSQL</h6>
-                                    </div>
-                                    <div class="item d-flex align-items-center justify-content-between">
-                                        <span class="icon pe-7s-pen"></span>
-                                        <h6>Bootstrap</h6>
-                                    </div>
-                                    <div class="item d-flex align-items-center justify-content-between">
-                                        <span class="icon pe-7s-css"></span>
-                                        <h6>CSS</h6>
-                                    </div>
-                                    <div class="item d-flex align-items-center justify-content-between">
-                                        <span class="icon pe-7s-html5"></span>
-                                        <h6>HTML</h6>
-                                    </div>
-                                    <div class="item d-flex align-items-center justify-content-between">
-                                        <span class="icon pe-7s-edit"></span>
-                                        <h6>WordPress</h6>
-                                    </div>
-                                    <div class="item d-flex align-items-center justify-content-between">
-                                        <span class="icon pe-7s-phone"></span>
-                                        <h6>Asterisk</h6>
-                                    </div>
-                                    <div class="item d-flex align-items-center justify-content-between">
-                                        <span class="icon pe-7s-call"></span>
-                                        <h6>ViciBox</h6>
-                                    </div>
-                                    <div class="item d-flex align-items-center justify-content-between">
-                                        <span class="icon pe-7s-tux"></span>
-                                        <h6>Linux</h6>
-                                    </div>
-                                    <div class="item d-flex align-items-center justify-content-between">
-                                        <span class="icon pe-7s-windows"></span>
-                                        <h6>Windows</h6>
-                                    </div>
-                                </div>
-
-
-
-                            </div>
-                            <div class="slide-har st2">
-                                <!-- Cursos -->
-                                <div class="box">
-                                    <div class="item d-flex align-items-center justify-content-between">
-                                        <span class="icon pe-7s-study"></span>
-                                        <h6>PHP Avanzado</h6>
-                                    </div>
-                                    <div class="item d-flex align-items-center justify-content-between">
-                                        <span class="icon pe-7s-study"></span>
-                                        <h6>Data Science e Inteligencia Artificial</h6>
-                                    </div>
-                                    <div class="item d-flex align-items-center justify-content-between">
-                                        <span class="icon pe-7s-study"></span>
-                                        <h6>PHP con Laravel</h6>
-                                    </div>
-                                    <div class="item d-flex align-items-center justify-content-between">
-                                        <span class="icon pe-7s-study"></span>
-                                        <h6>Administración de PostgreSQL</h6>
-                                    </div>
-                                    <div class="item d-flex align-items-center justify-content-between">
-                                        <span class="icon pe-7s-study"></span>
-                                        <h6>Bases para Analítica y Ciencia de Datos</h6>
-                                    </div>
-                                    <div class="item d-flex align-items-center justify-content-between">
-                                        <span class="icon pe-7s-study"></span>
-                                        <h6>Fundamentos de Node.js</h6>
-                                    </div>
-                                    <div class="item d-flex align-items-center justify-content-between">
-                                        <span class="icon pe-7s-study"></span>
-                                        <h6>Redes (Network Installer Specialist)</h6>
-                                    </div>
-                                    <div class="item d-flex align-items-center justify-content-between">
-                                        <span class="icon pe-7s-study"></span>
-                                        <h6>IA para Data y Machine Learning</h6>
-                                    </div>
-                                    <div class="item d-flex align-items-center justify-content-between">
-                                        <span class="icon pe-7s-study"></span>
-                                        <h6>Bases de Datos</h6>
-                                    </div>
-                                    <div class="item d-flex align-items-center justify-content-between">
-                                        <span class="icon pe-7s-study"></span>
-                                        <h6>API REST con Express.js</h6>
-                                    </div>
-                                    <div class="item d-flex align-items-center justify-content-between">
-                                        <span class="icon pe-7s-study"></span>
-                                        <h6>Fundamentos de Python</h6>
-                                    </div>
-                                    <div class="item d-flex align-items-center justify-content-between">
-                                        <span class="icon pe-7s-study"></span>
-                                        <h6>Desarrollo y Deployment en WordPress</h6>
-                                    </div>
-                                    <div class="item d-flex align-items-center justify-content-between">
-                                        <span class="icon pe-7s-study"></span>
-                                        <h6>Fundamentos de Cloud Computing</h6>
-                                    </div>
-                                    <div class="item d-flex align-items-center justify-content-between">
-                                        <span class="icon pe-7s-study"></span>
-                                        <h6>Comprehensions, Funciones de Python</h6>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- ==================== End all-feat ==================== -->
 
 
 
@@ -900,7 +939,7 @@
                     <div class="col-lg-12">
                         <div class="cont text-center">
                             <h3 class="num"><span class="gr">0988492339<span class="thin">+</span></span></h3>
-                            <h6 class="sub-title inline gr-sunrise-text my-3 text-uppercase">Licencias vendidas y contando
+                            <h6 class="sub-title inline gr-sunrise-text my-3 text-uppercase">¿Que esperas?
                             </h6>
                             <h2>¡Desata tu creatividad hoy!</h2>
                             <p class="mt-15">Soy Gregorio Osorio, un apasionado Desarrollador de Software con un enfoque
