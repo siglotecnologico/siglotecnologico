@@ -168,17 +168,12 @@
             <div class="container-xxl">
                 <div class="row justify-content-center">
                     <div class="col-lg-6 col-md-10">
-                        <div class="sec-head text-center mb-40">
-                            <h2 class="num"><span class="color-grd">WEB<span class="thin"></span></span></h2>
-                            <h3 class="text-capitalize">Proyectos Destacados en Desarrollo Web</h3>
-                            <p class="color-777">Como desarrollador web, he creado estas páginas web utilizando una
-                                variedad de tecnologías para diferentes propósitos y sectores. Cada página web refleja mi
-                                habilidad para crear diseños modernos y funcionales que satisfacen las necesidades de mis
-                                clientes.</p>
+                        <div class="sec-head text-center mb-40"> 
+                            <p class="color-777">En mi portafolio, encontrarás una colección de proyectos que representan mi experiencia en el desarrollo de aplicaciones web y el diseño de páginas web. Cada trabajo refleja mi compromiso con la innovación, la creatividad y la excelencia técnica, buscando siempre superar las expectativas de mis clientes y brindar soluciones digitales de alta calidad</p><hr />
                         </div>
                     </div>
                 </div>
-                <!-- ==================== Start all-feat ==================== -->
+                <!-- ==================== Start paginas y aplicaciones ==================== -->
                 <section class="all-feat" data-overlay-dark="0">
                     <div class="container-fluid">
                         <div class="row">
@@ -328,301 +323,403 @@
                         </div>
                     </div>
                 </section>
-                <br/>
-                <!-- ==================== End all-feat ==================== -->
-                <div class="row">
-                    <h2  class="sub-title inline gr-sunrise-text my-3 text-uppercase">Paginas Web</h2>
-                    <div class="col-lg-4 col-md-6">
-                        <div class="item item_ribbon red">
-                            <a href="fundaciondiosesbuenofielyjusto.org" target="_blank">
-                                <div class="img">
-                                    <img src="{{ asset('assets/img/portafolio/fundaciondiosesbuenofielyjusto.png') }}"
-                                        alt="">
-                                </div>
-                                <div class="info">
-                                    <span>Fundación </span>
-                                    <h6>Fundación Dios es Bueno 2024</h6>
-                                </div>
-                            </a>
-                            <div class="technologies">
-                                <h6>Tecnologías Desarrolladas:</h6>
-                                <div class="tech-columns">
-                                    <ul>
-                                        <li>PHP</li>
-                                        <li>Laravel Framework</li>
-                                        <li>MySQL</li>
-                                        <li>HTML</li>
-                                        <li>CSS</li>
-                                        <li>JavaScript</li>
-                                        <li>Blade</li>
-                                        <li>Vue.js</li>
-                                    </ul>
-                                    <ul>
-                                        <li>React</li>
-                                        <li>Tailwind CSS</li>
-                                        <li>Bootstrap</li>
-                                        <li>Laravel Mix</li>
-                                        <li>Composer</li>
-                                        <li>npm/yarn</li>
-                                        <li>REST API</li>
-                                        <li>Docker</li>
-                                    </ul>
+                <br />
+                <section class="popular-posts pt-50 pb-100 border-bottom brd-gray">
+                    <div class="container"> 
+                        <div class="sec-head text-center mb-40">
+                            <h2 class="num"><span class="color-grd">Aplicaciones<span class="thin"></span></span>
+                            </h2>
+                            <h3 class="text-capitalize">Proyectos Destacados en Aplicaciones Web</h3>
+                            <p class="color-777">Como desarrollador de aplicaciones web, he creado e implementado diversas
+                                soluciones utilizando una variedad de tecnologías para distintos propósitos y sectores. Cada
+                                aplicación web refleja mi habilidad para desarrollar soluciones modernas, funcionales y
+                                adaptadas a las necesidades específicas de mis clientes, asegurando una experiencia de
+                                usuario eficiente y satisfactoria.</p> 
+                        </div>
+                        <br />
+                        <div class="row gx-5">
+                            <div class="col-lg-4 border-end brd-gray">
+                                <div class="card border-0 bg-transparent rounded-0 mb-30 mb-lg-0 d-block">
+                                    <div class="img radius-7 overflow-hidden img-cover">
+                                        <img src="{{ asset('assets/img/portafolio/aplicaciones/kipitaplicaciones.png') }}"
+                                            class="card-img-top" alt="...">
+                                    </div>
+                                    <div class="card-body px-0">
+                                        <small class="d-block date mt-10 fs-10px fw-bold">
+                                            <a href="{{ route('portafolio.kipit') }}"
+                                                class="text-uppercase border-end brd-gray pe-3 me-3 color-blue5">eCommerce</a>
+                                            <i class="bi bi-clock me-1"></i>
+                                            <a href="{{ route('portafolio.kipit') }}" class="op-8">2024</a>
+                                        </small>
+                                        <h5 class="fw-bold mt-10 title">
+                                            <a href="{{ route('portafolio.kipit') }}">Kipit Home</a>
+                                        </h5>
+                                        <p class="small mt-2 op-8 fs-10px">Mejoras continuas en el código y soporte del
+                                            eCommerce para optimizar su funcionamiento y automatización de diversos módulos
+                                            [...]
+                                        </p>
+                                        <div class="technologies">
+                                            <h6>Tecnologías Implementadas:</h6>
+                                            <div class="tech-columns">
+                                                <ul>
+                                                    <li>PHP</li>
+                                                    <li>React</li>
+                                                    <li>Laravel Framework</li>
+                                                    <li>Js</li>
+                                                    <li>MySQL</li>
+                                                    <li>PostgreSQL</li>
+                                                    <li>CSS</li>
+                                                    <li>JavaScript</li>
+                                                    <li>Ant Design</li>
+                                                    <li>REST API</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="new_demo_label">
-                                <span> Dv </span>
+                            <div class="col-lg-4 border-end brd-gray">
+                                <div class="card border-0 bg-transparent rounded-0 mb-30 mb-lg-0 d-block">
+                                    <div class="img radius-7 overflow-hidden img-cover">
+                                        <img src="{{ asset('assets/img/portafolio/aplicaciones/login.png') }}"
+                                            class="card-img-top" alt="...">
+                                    </div>
+                                    <div class="card-body px-0">
+                                        <small class="d-block date mt-10 fs-10px fw-bold">
+                                            <a href="{{ route('portafolio.damplus') }}"
+                                                class="text-uppercase border-end brd-gray pe-3 me-3 color-blue5">Intranet</a>
+                                            <i class="bi bi-clock me-1"></i>
+                                            <a href="{{ route('portafolio.damplus') }}" class="op-8">2018-2023</a>
+                                        </small>
+                                        <h5 class="fw-bold mt-10 title">
+                                            <a href="{{ route('portafolio.damplus') }}">Damplus</a>
+                                        </h5>
+                                        <p class="small mt-2 op-8 fs-10px">La eficiencia operativa y mejorar la toma de
+                                            decisiones mediante la integración de tecnologías clave y el desarrollo de
+                                            módulos personalizados[...]
+                                        </p>
+                                        <div class="technologies">
+                                            <h6>Tecnologías Implementadas:</h6>
+                                            <div class="tech-columns">
+                                                <ul>
+                                                    <li>PHP</li>
+                                                    <li>PYTHON</li>
+                                                    <li>Laravel Framework</li>
+                                                    <li>Vue.js</li>
+                                                    <li>MySQL</li>
+                                                    <li>HTML</li>
+                                                    <li>CSS</li>
+                                                    <li>JavaScript</li>
+                                                    <li>Blade</li>
+                                                    <li>Bootstrap</li>
+                                                    <li>REST API</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 border-end brd-gray">
+                                <div class="card border-0 bg-transparent rounded-0 mb-30 mb-lg-0 d-block">
+                                    <div class="img radius-7 overflow-hidden img-cover">
+                                        <img src="{{ asset('assets/img/portafolio/aplicaciones/vicibox.png') }}"
+                                            class="card-img-top" alt="...">
+                                    </div>
+                                    <div class="card-body px-0">
+                                        <small class="d-block date mt-10 fs-10px fw-bold">
+                                            <a href="{{ route('portafolio.vicidial') }}"
+                                                class="text-uppercase border-end brd-gray pe-3 me-3 color-blue5">Central
+                                                Telefonica</a>
+                                            <i class="bi bi-clock me-1"></i>
+                                            <a href="{{ route('portafolio.vicidial') }}" class="op-8">2018-2023</a>
+                                        </small>
+                                        <h5 class="fw-bold mt-10 title">
+                                            <a href="{{ route('portafolio.vicidial') }}">Vicidial Asterisk</a>
+                                        </h5>
+                                        <p class="small mt-2 op-8 fs-10px">Implementación de una central telefónica en modo
+                                            clúster para una empresa de call center con más de 120 agentes. [...]
+                                        </p>
+                                        <div class="technologies">
+                                            <h6>Tecnologías Implementadas:</h6>
+                                            <div class="tech-columns">
+                                                <ul>
+                                                    <li>PHP</li>
+                                                    <li>MySQL</li>
+                                                    <li>HTML</li>
+                                                    <li>CSS</li>
+                                                    <li>JavaScript</li>
+                                                    <li>Crontab</li>
+                                                    <li>S.O, Cento-8</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6">
-                        <div class="item">
-                            <a href="https://datamarketingplus.ec/" target="_blank">
-                                <div class="img">
-                                    <img src="{{ asset('assets/img/portafolio/datamarketingplus.png') }}" alt="">
+                </section>
+                <!-- ==================== End paginas web ==================== -->
+                <section class="popular-posts pt-50 pb-100 border-bottom brd-gray">
+                    <div class="container">
+                        <div class="sec-head text-center mb-40">
+                            <h2 class="num"><span class="color-grd">Páginas Web<span class="thin"></span></span>
+                            </h2>
+                            <h3 class="text-capitalize">Proyectos Destacados en Desarrollo de Páginas Web</h3>
+                            <p class="color-777">Como desarrollador de páginas web, he creado una variedad de sitios utilizando diferentes tecnologías para diversos propósitos y sectores. Cada página web que he desarrollado refleja mi habilidad para diseñar y construir sitios modernos, funcionales y estéticamente atractivos, adaptados a las necesidades y objetivos de mis clientes.</p> 
+                        </div> 
+                        <div class="row gx-5">
+                            <div class="col-lg-4 col-md-6">
+                                <div class="item item_ribbon red">
+                                    <a href="fundaciondiosesbuenofielyjusto.org" target="_blank">
+                                        <div class="img">
+                                            <img src="{{ asset('assets/img/portafolio/fundaciondiosesbuenofielyjusto.png') }}"
+                                                alt="">
+                                        </div>
+                                        <div class="info">
+                                            <span>Fundación </span>
+                                            <h6>Fundación Dios es Bueno 2024</h6>
+                                        </div>
+                                    </a>
+                                    <div class="technologies">
+                                        <h6>Tecnologías Implementadas:</h6>
+                                        <div class="tech-columns">
+                                            <ul>
+                                                <li>PHP</li>
+                                                <li>Laravel Framework</li>
+                                                <li>MySQL</li>
+                                                <li>HTML</li>
+                                                <li>CSS</li>
+                                                <li>JavaScript</li>
+                                                <li>Blade</li>
+                                                <li>Vue.js</li>
+                                            </ul>
+                                            <ul>
+                                                <li>React</li>
+                                                <li>Tailwind CSS</li>
+                                                <li>Bootstrap</li>
+                                                <li>Laravel Mix</li>
+                                                <li>Composer</li>
+                                                <li>npm/yarn</li>
+                                                <li>REST API</li>
+                                                <li>Docker</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="new_demo_label">
+                                        <span> Dv </span>
+                                    </div>
                                 </div>
-                                <div class="info">
-                                    <span>Marketing Startup</span>
-                                    <h6>DatamarketingPlus 2022</h6>
-                                </div>
-                            </a>
-                            <div class="technologies">
-                                <h6>Tecnologías Desarrolladas:</h6>
-                                <ul>
-                                    <li>PHP</li>
-                                    <li>MySQL</li>
-                                    <li>HTML</li>
-                                    <li>CSS</li>
-                                    <li>JavaScript</li>
-                                    <li>jQuery</li>
-                                    <li>Bootstrap</li>
-                                    <li>WordPress Theme Development</li>
-                                </ul>
-                                <ul>
-                                    <li>WordPress Plugin Development</li>
-                                    <li>WooCommerce</li>
-                                    <li>Yoast SEO</li>
-                                    <li>Elementor</li>
-                                </ul>
                             </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6">
-                        <div class="item">
-                            <a href="https://estudiojuridicotagle.com/" target="_blank">
-                                <div class="img">
-                                    <img src="{{ asset('assets/img/portafolio/tagle.png') }}" alt="">
+                            <div class="col-lg-4 col-md-6">
+                                <div class="item">
+                                    <a href="https://datamarketingplus.ec/" target="_blank">
+                                        <div class="img">
+                                            <img src="{{ asset('assets/img/portafolio/datamarketingplus.png') }}"
+                                                alt="">
+                                        </div>
+                                        <div class="info">
+                                            <span>Marketing Startup</span>
+                                            <h6>DatamarketingPlus 2022</h6>
+                                        </div>
+                                    </a>
+                                    <div class="technologies">
+                                        <h6>Tecnologías Implementadas:</h6>
+                                        <ul>
+                                            <li>PHP</li>
+                                            <li>MySQL</li>
+                                            <li>HTML</li>
+                                            <li>CSS</li>
+                                            <li>JavaScript</li>
+                                            <li>jQuery</li>
+                                            <li>Bootstrap</li>
+                                            <li>WordPress Theme Development</li>
+                                        </ul>
+                                        <ul>
+                                            <li>WordPress Plugin Development</li>
+                                            <li>WooCommerce</li>
+                                            <li>Yoast SEO</li>
+                                            <li>Elementor</li>
+                                        </ul>
+                                    </div>
                                 </div>
-                                <div class="info">
-                                    <span>Estudio Jurídico</span>
-                                    <h6>Estudio Jurídico Tagle 2022</h6>
-                                </div>
-                            </a>
-                            <div class="technologies">
-                                <h6>Tecnologías Desarrolladas:</h6>
-                                <ul>
-                                    <li>PHP</li>
-                                    <li>MySQL</li>
-                                    <li>HTML</li>
-                                    <li>CSS</li>
-                                    <li>JavaScript</li>
-                                    <li>jQuery</li>
-                                    <li>Bootstrap</li>
-                                    <li>WordPress Theme Development</li>
-                                </ul>
-                                <ul>
-                                    <li>WordPress Plugin Development</li>
-                                    <li>WooCommerce</li>
-                                    <li>Yoast SEO</li>
-                                    <li>Elementor</li>
-                                    <li>REST API</li>
-                                </ul>
                             </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6">
-                        <div class="item">
-                            <a href="https://siglotecnologico.com/" target="_blank">
-                                <div class="img">
-                                    <img src="{{ asset('assets/img/portafolio/siglotecnologico.png') }}" alt="">
+                            <div class="col-lg-4 col-md-6">
+                                <div class="item">
+                                    <a href="https://estudiojuridicotagle.com/" target="_blank">
+                                        <div class="img">
+                                            <img src="{{ asset('assets/img/portafolio/tagle.png') }}" alt="">
+                                        </div>
+                                        <div class="info">
+                                            <span>Estudio Jurídico</span>
+                                            <h6>Estudio Jurídico Tagle 2022</h6>
+                                        </div>
+                                    </a>
+                                    <div class="technologies">
+                                        <h6>Tecnologías Implementadas:</h6>
+                                        <ul>
+                                            <li>PHP</li>
+                                            <li>MySQL</li>
+                                            <li>HTML</li>
+                                            <li>CSS</li>
+                                            <li>JavaScript</li>
+                                            <li>jQuery</li>
+                                            <li>Bootstrap</li>
+                                            <li>WordPress Theme Development</li>
+                                        </ul>
+                                        <ul>
+                                            <li>WordPress Plugin Development</li>
+                                            <li>WooCommerce</li>
+                                            <li>Yoast SEO</li>
+                                            <li>Elementor</li>
+                                            <li>REST API</li>
+                                        </ul>
+                                    </div>
                                 </div>
-                                <div class="info">
-                                    <span>Empresa de Software</span>
-                                    <h6>Siglo Tecnológico 2022</h6>
-                                </div>
-                            </a>
-                            <div class="technologies">
-                                <h6>Tecnologías Desarrolladas:</h6>
-                                <ul>
-                                    <li>PHP</li>
-                                    <li>Laravel Framework</li>
-                                    <li>MySQL</li>
-                                    <li>HTML</li>
-                                    <li>CSS</li>
-                                    <li>JavaScript</li>
-                                    <li>Blade</li>
-                                    <li>Vue.js</li>
-                                </ul>
-                                <ul>
-                                    <li>Laravel Mail</li>
-                                    <li>SwiftMailer</li>
-                                    <li>Mailtrap</li>
-                                    <li>SMTP Providers</li>
-                                    <li>REST API</li>
-                                    <li>SASS/SCSS</li>
-                                    <li>Docker</li>
-                                    <li>Git</li>
-                                </ul>
                             </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6">
-                        <div class="item item_ribbon">
-                            <a href="https://intercobec.com/" target="_blank">
-                                <div class="img">
-                                    <img src="{{ asset('assets/img/portafolio/intercobec.png') }}" alt="">
+                            <div class="col-lg-4 col-md-6">
+                                <div class="item">
+                                    <a href="https://siglotecnologico.com/" target="_blank">
+                                        <div class="img">
+                                            <img src="{{ asset('assets/img/portafolio/siglotecnologico.png') }}"
+                                                alt="">
+                                        </div>
+                                        <div class="info">
+                                            <span>Empresa de Software</span>
+                                            <h6>Siglo Tecnológico 2022</h6>
+                                        </div>
+                                    </a>
+                                    <div class="technologies">
+                                        <h6>Tecnologías Implementadas:</h6>
+                                        <ul>
+                                            <li>PHP</li>
+                                            <li>Laravel Framework</li>
+                                            <li>MySQL</li>
+                                            <li>HTML</li>
+                                            <li>CSS</li>
+                                            <li>JavaScript</li>
+                                            <li>Blade</li>
+                                            <li>Vue.js</li>
+                                        </ul>
+                                        <ul>
+                                            <li>Laravel Mail</li>
+                                            <li>SwiftMailer</li>
+                                            <li>Mailtrap</li>
+                                            <li>SMTP Providers</li>
+                                            <li>REST API</li>
+                                            <li>SASS/SCSS</li>
+                                            <li>Docker</li>
+                                            <li>Git</li>
+                                        </ul>
+                                    </div>
                                 </div>
-                                <div class="info">
-                                    <span>Estudio Jurídico</span>
-                                    <h6>Estudio Jurídico Intercobec 2023</h6>
-                                </div>
-                            </a>
-                            <div class="technologies">
-                                <h6>Tecnologías Desarrolladas:</h6>
-                                <ul>
-                                    <li>PHP</li>
-                                    <li>MySQL</li>
-                                    <li>HTML</li>
-                                    <li>CSS</li>
-                                    <li>JavaScript</li>
-                                    <li>jQuery</li>
-                                    <li>Bootstrap</li>
-                                    <li>WordPress Theme Development</li>
-                                </ul>
-                                <ul>
-                                    <li>WordPress Plugin Development</li>
-                                    <li>WooCommerce</li>
-                                    <li>Yoast SEO</li>
-                                    <li>Elementor</li>
-                                    <li>REST API</li>
-                                </ul>
                             </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6">
-                        <div class="item">
-                            <a href="https://carbonylena.net/" target="_blank">
-                                <div class="img">
-                                    <img src="{{ asset('assets/img/portafolio/carbonylena.png') }}" alt="">
+                            <div class="col-lg-4 col-md-6">
+                                <div class="item item_ribbon">
+                                    <a href="https://intercobec.com/" target="_blank">
+                                        <div class="img">
+                                            <img src="{{ asset('assets/img/portafolio/intercobec.png') }}"
+                                                alt="">
+                                        </div>
+                                        <div class="info">
+                                            <span>Estudio Jurídico</span>
+                                            <h6>Estudio Jurídico Intercobec 2023</h6>
+                                        </div>
+                                    </a>
+                                    <div class="technologies">
+                                        <h6>Tecnologías Implementadas:</h6>
+                                        <ul>
+                                            <li>PHP</li>
+                                            <li>MySQL</li>
+                                            <li>HTML</li>
+                                            <li>CSS</li>
+                                            <li>JavaScript</li>
+                                            <li>jQuery</li>
+                                            <li>Bootstrap</li>
+                                            <li>WordPress Theme Development</li>
+                                        </ul>
+                                        <ul>
+                                            <li>WordPress Plugin Development</li>
+                                            <li>WooCommerce</li>
+                                            <li>Yoast SEO</li>
+                                            <li>Elementor</li>
+                                            <li>REST API</li>
+                                        </ul>
+                                    </div>
                                 </div>
-                                <div class="info">
-                                    <span>Restaurante</span>
-                                    <h6>Carbon & Leña 2022</h6>
-                                </div>
-                            </a>
-                            <div class="technologies">
-                                <h6>Tecnologías Desarrolladas:</h6>
-                                <ul>
-                                    <li>PHP</li>
-                                    <li>MySQL</li>
-                                    <li>HTML</li>
-                                    <li>CSS</li>
-                                    <li>JavaScript</li>
-                                    <li>jQuery</li>
-                                    <li>Bootstrap</li>
-                                    <li>WordPress Theme Development</li>
-                                </ul>
-                                <ul>
-                                    <li>WordPress Plugin Development</li>
-                                    <li>WooCommerce</li>
-                                    <li>Yoast SEO</li>
-                                    <li>Elementor</li>
-                                    <li>REST API</li>
-                                </ul>
                             </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6">
-                        <div class="item">
-                            <a href="https://carbonylena.net/" target="_blank">
-                                <div class="img">
-                                    <img src="{{ asset('assets/img/portafolio/movistarecuador-net.png') }}"
-                                        alt="">
+                            <div class="col-lg-4 col-md-6">
+                                <div class="item">
+                                    <a href="https://carbonylena.net/" target="_blank">
+                                        <div class="img">
+                                            <img src="{{ asset('assets/img/portafolio/carbonylena.png') }}"
+                                                alt="">
+                                        </div>
+                                        <div class="info">
+                                            <span>Restaurante</span>
+                                            <h6>Carbon & Leña 2022</h6>
+                                        </div>
+                                    </a>
+                                    <div class="technologies">
+                                        <h6>Tecnologías Implementadas:</h6>
+                                        <ul>
+                                            <li>PHP</li>
+                                            <li>MySQL</li>
+                                            <li>HTML</li>
+                                            <li>CSS</li>
+                                            <li>JavaScript</li>
+                                            <li>jQuery</li>
+                                            <li>Bootstrap</li>
+                                            <li>WordPress Theme Development</li>
+                                        </ul>
+                                        <ul>
+                                            <li>WordPress Plugin Development</li>
+                                            <li>WooCommerce</li>
+                                            <li>Yoast SEO</li>
+                                            <li>Elementor</li>
+                                            <li>REST API</li>
+                                        </ul>
+                                    </div>
                                 </div>
-                                <div class="info">
-                                    <span>Ecommerce</span>
-                                    <h6>Movistar Ecuador 2024</h6>
-                                </div>
-                            </a>
-                            <div class="technologies">
-                                <h6>Tecnologías Desarrolladas:</h6>
-                                <ul>
-                                    <li>PHP</li>
-                                    <li>MySQL</li>
-                                    <li>HTML</li>
-                                    <li>CSS</li>
-                                    <li>JavaScript</li>
-                                    <li>jQuery</li>
-                                    <li>Bootstrap</li>
-                                    <li>WordPress Theme Development</li>
-                                </ul>
-                                <ul>
-                                    <li>WordPress Plugin Development</li>
-                                    <li>WooCommerce</li>
-                                    <li>Yoast SEO</li>
-                                    <li>Elementor</li>
-                                    <li>REST API</li>
-                                </ul>
                             </div>
-                        </div>
-                    </div>
+                            <div class="col-lg-4 col-md-6">
+                                <div class="item">
+                                    <a href="https://carbonylena.net/" target="_blank">
+                                        <div class="img">
+                                            <img src="{{ asset('assets/img/portafolio/movistarecuador-net.png') }}"
+                                                alt="">
+                                        </div>
+                                        <div class="info">
+                                            <span>Ecommerce</span>
+                                            <h6>Movistar Ecuador 2024</h6>
+                                        </div>
+                                    </a>
+                                    <div class="technologies">
+                                        <h6>Tecnologías Implementadas:</h6>
+                                        <ul>
+                                            <li>PHP</li>
+                                            <li>MySQL</li>
+                                            <li>HTML</li>
+                                            <li>CSS</li>
+                                            <li>JavaScript</li>
+                                            <li>jQuery</li>
+                                            <li>Bootstrap</li>
+                                            <li>WordPress Theme Development</li>
+                                        </ul>
+                                        <ul>
+                                            <li>WordPress Plugin Development</li>
+                                            <li>WooCommerce</li>
+                                            <li>Yoast SEO</li>
+                                            <li>Elementor</li>
+                                            <li>REST API</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
 
-
-
-                </div>
-                <div class="row">
-                    <h2  class="sub-title inline gr-sunrise-text my-3 text-uppercase">Aplicaciones</h2>
-                    <div class="col-lg-4 col-md-6">
-                        <div class="item item_ribbon red">
-                            <a href="{{ route('portafolio.damplus') }}" target="_blank">
-                                <div class="img">
-                                    <img src="{{ asset('assets/img/portafolio/aplicaciones/login.png') }}"
-                                        alt="">
-                                </div>
-                                <div class="info">
-                                    <span>Intranet </span>
-                                    <h6>Damplus 2018-2023</h6>
-                                </div>
-                            </a>
-                            <div class="technologies">
-                                <h6>Tecnologías Desarrolladas:</h6>
-                                <div class="tech-columns">
-                                    <ul>
-                                        <li>PHP</li>
-                                        <li>PYTHON</li>
-                                        <li>Laravel Framework</li>
-                                        <li>Vue.js</li>
-                                        <li>MySQL</li>
-                                        <li>HTML</li>
-                                        <li>CSS</li>
-                                        <li>JavaScript</li>
-                                        <li>Blade</li>
-                                       
-                                    </ul>
-                                    <ul>
-                                        <li>Bootstrap</li>
-                                        <li>Laravel Mix</li>
-                                        <li>Composer</li>
-                                        <li>npm/yarn</li>
-                                        <li>REST API</li>
-                                    </ul>
-                                </div>
-                            </div>
                         </div>
-                    </div> 
-
-
-
-                </div>
+                    </div>
+                </section>
             </div>
         </section>
         <!-- ==================== End paginas web  ==================== -->
@@ -648,7 +745,7 @@
 
 
         <!-- ==================== Start ==================== -->
-{{-- 
+        {{-- 
         <section class="box-gr">
             <div class="container-xxl box">
                 <div class="row">
@@ -693,7 +790,8 @@
 
                                 <div class="box">
                                     <div class="item">
-                                        <img src="{{ asset('assets/img/portafolio/aplicaciones/1-ADMINISTRACION-CARGOS-LISTA.png') }}" alt="">
+                                        <img src="{{ asset('assets/img/portafolio/aplicaciones/1-ADMINISTRACION-CARGOS-LISTA.png') }}"
+                                            alt="">
                                     </div>
                                     <div class="item">
                                         <img src="landing-preview/img/header/2.jpg" alt="">

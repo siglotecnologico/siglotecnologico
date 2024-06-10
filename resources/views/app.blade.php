@@ -35,23 +35,23 @@
     
     <style>
 
-        .item .technologies {
+         .technologies {
             margin-top: 20px;
         }
         
-        .item .technologies h6 {
+         .technologies h6 {
             font-size: 16px;
             font-weight: bold;
             color: #555;
             margin-bottom: 10px;
         }
         
-        .item .technologies ul {
+         .technologies ul {
             list-style-type: none;
             padding: 0;
         }
         
-        .item .technologies ul li {
+         .technologies ul li {
             background: #f1f1f1;
             padding: 8px 12px;
             border-radius: 5px;
@@ -62,7 +62,7 @@
             margin-right: 5px;
         }
         
-        .item .technologies ul li::before {
+         .technologies ul li::before {
             content: '•';
             color: #007BFF;
             margin-right: 5px;

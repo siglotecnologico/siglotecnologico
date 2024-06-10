@@ -29,10 +29,10 @@
                         <div class="col-lg-3 col-sm-6">
                             <div class="about-card mb-30 mb-lg-0">
                                 <small class="d-block">
-                                    date
+                                    Fecha Dv
                                 </small>
                                 <h6>
-                                    Mar, 2018
+                                    Mar, 2018 - 2024
                                 </h6>
                             </div>
                         </div>

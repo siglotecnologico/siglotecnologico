@@ -32,6 +32,14 @@ Route::get('portafolio/damplus', function(){
     return view('portafolio/damplus');
 })->name('portafolio.damplus');
 
+Route::get('portafolio/kipit', function(){
+    return view('portafolio/kipit');
+})->name('portafolio.kipit');
+
+Route::get('portafolio/vicidial', function(){
+    return view('portafolio/vicidial');
+})->name('portafolio.vicidial');
+
 Route::post('/formularioContacto', [ContactoController::class, 'store'])->name('contacto.store');
 Route::post('/formularioContactoinfo', [ContactoController::class, 'contactoinfo'])->name('contactoinfo.store');
 Route::post('/formulariosuscripcion', [ContactoController::class, 'suscripcion'])->name('suscripcion.store');
