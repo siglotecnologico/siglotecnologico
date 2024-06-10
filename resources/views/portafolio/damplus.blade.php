@@ -32,7 +32,7 @@
                                     Fecha Dv
                                 </small>
                                 <h6>
-                                    Mar, 2018 - 2024
+                                    2018 - 2024
                                 </h6>
                             </div>
                         </div>
@@ -382,7 +382,7 @@
                             <i class="bi bi-check fs-6 me-2"></i>
                             <div>
                                 <strong>Mejora en la Experiencia del Usuario:</strong><br>
-                                La interfaz intuitiva y amigable de la intranet ha mejorado la experiencia de usuario, aumentando la adopción y el uso de la plataforma por parte del personal de la empresa.
+                                La interfaz intuitiva y amigable de la intranet ha mejorado la experiencia de usuario, aumentando la adaptación y el uso de la plataforma por parte del personal de la empresa.
                             </div>
                         </li>
                     </ul>
@@ -393,8 +393,8 @@
     <div class="training-adoption section-padding style-5 overflow-hidden">
         <div class="container">
             <div class="section-head style-5 text-center mb-60">
-                <h2 class=""> Proceso de Capacitación y <span> Adopción </span> </h2>
-                <p>Para garantizar el éxito de la intranet en DataMarketingPlus, implementamos un proceso integral de capacitación y adopción para todo el personal. A continuación, se describe nuestro enfoque:</p>
+                <h2 class=""> Proceso de Capacitación y <span> adaptación </span> </h2>
+                <p>Para garantizar el éxito de la intranet en DataMarketingPlus, implementamos un proceso integral de capacitación y adaptación para todo el personal. A continuación, se describe nuestro enfoque:</p>
             </div>
             <div class="inf">
                 <div class="text color-666 mb-20">
@@ -417,11 +417,11 @@
                         </li>
                         <li class="mb-20">
                             <strong>Monitoreo y Retroalimentación:</strong><br>
-                            Realizamos un seguimiento continuo del progreso de la adopción de la intranet y recopilamos comentarios del personal para identificar áreas de mejora y ajustar nuestros programas de capacitación según sea necesario.
+                            Realizamos un seguimiento continuo del progreso de la adaptación de la intranet y recopilamos comentarios del personal para identificar áreas de mejora y ajustar nuestros programas de capacitación según sea necesario.
                         </li>
                         <li class="mb-20">
-                            <strong>Reconocimiento y Incentivos:</strong><br>
-                            Reconocemos y recompensamos a los empleados que demuestran un alto nivel de competencia y compromiso con el uso efectivo de la intranet, fomentando así una cultura de adopción y participación.
+                            <strong>Reconocimiento e Incentivos:</strong><br>
+                            Reconocemos y recompensamos a los empleados que demuestran un alto nivel de competencia y compromiso con el uso efectivo de la intranet, fomentando así una cultura de adaptación y participación.
                         </li>
                     </ol>
                 </div>

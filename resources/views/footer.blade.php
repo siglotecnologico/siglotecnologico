@@ -56,22 +56,22 @@
                             </h6>
                             <ul>
                                 <li>
-                                    <a href="#">CRM y Software </a>
+                                    <a href="{{ route('services') }}">CRM y Software </a>
                                 </li>
                                 <li>
-                                    <a href="#">Desarrollo de Sitios Web </a>
+                                    <a href="{{ route('services') }}">Desarrollo de Sitios Web </a>
                                 </li>
                                 <li>
-                                    <a href="#">Seguridad de Datos </a>
+                                    <a href="{{ route('services') }}">Seguridad de Datos </a>
                                 </li>
                                 <li>
-                                    <a href="#">Consultas de TI </a>
+                                    <a href="{{ route('services') }}">Consultas de TI </a>
                                 </li>
                                 <li>
-                                    <a href="#">Diseño UI/UX </a>
+                                    <a href="{{ route('services') }}">Diseño UI/UX </a>
                                 </li>
                                 <li>
-                                    <a href="#">Servicios en la Nube </a>
+                                    <a href="{{ route('services') }}">Servicios en la Nube </a>
                                 </li>
 
 
@@ -87,25 +87,13 @@
                             </h6>
                             <ul>
                                 <li>
-                                    <a href="#">Siglo Tecnologico </a>
+                                    <a href="{{ route('portafolio') }}">Portafolio</a>
                                 </li>
 
+                             
                                 <li>
-                                    <a href="#">Blog </a>
-                                </li>
-                                <li>
-                                    <a href="#">Preguntas Frecuentes </a>
-                                </li>
-                                <li>
-                                    <a href="#">Contacto </a>
-                                </li>
-
-                                <li>
-                                    <a href="#">Cómo Funciona </a>
-                                </li>
-                                <li>
-                                    <a href="#">Planes de Precios </a>
-                                </li>
+                                    <a href="{{ route('contactos') }}">Contactos </a>
+                                </li> 
 
                             </ul>
                         </div>

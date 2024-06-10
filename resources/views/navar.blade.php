@@ -50,11 +50,7 @@
                         Inicio
                     </a>
                 </li> --}}
-                <li class="nav-item dropdown">
-                    <a href="{{ route('inicio') }}" class="nav-link" >{{-- active, devo realizar esa funcion --}}
-                        Siglo Tecnológico
-                    </a>
-                </li>
+               
                 <li class="nav-item dropdown">
                     <a  href="{{ route('services') }}" class="nav-link" >
                         Servicios

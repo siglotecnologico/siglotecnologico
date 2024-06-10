@@ -136,7 +136,7 @@
                         <i class="bi bi-arrow-right-short fs-6 me-2"></i>
                         <div>
                             <strong>Automatización de Procesos:</strong><br>
-                            Automatizamos procesos repetitivos, reduciendo la carga de trabajo manual y minimizando errores humanos.
+                            Automatizamos procesos repetitivos, reduciendo la carga de trabajo manual y minimizando errores.
                         </div>
                     </li>
                     <li class="d-flex mb-20">

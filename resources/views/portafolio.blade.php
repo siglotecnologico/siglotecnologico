@@ -176,7 +176,8 @@
                 <!-- ==================== Start paginas y aplicaciones ==================== -->
                 <section class="all-feat" data-overlay-dark="0">
                     <div class="container-fluid">
-                        <div class="row">
+                        <div class="row"> 
+                        <center><h3>Algunas de mis Tecnología</h3></center> 
                             <div class="col-12">
                                 <div class="main-marq">
                                     <div class="slide-har st1">
@@ -256,68 +257,7 @@
                                                 <h6>Windows</h6>
                                             </div>
                                         </div>
-                                    </div>
-                                    <div class="slide-har st2">
-                                        <!-- Cursos -->
-                                        <div class="box">
-                                            <div class="item d-flex align-items-center justify-content-between">
-                                                <span class="icon pe-7s-study"></span>
-                                                <h6>PHP Avanzado</h6>
-                                            </div>
-                                            <div class="item d-flex align-items-center justify-content-between">
-                                                <span class="icon pe-7s-study"></span>
-                                                <h6>Data Science e Inteligencia Artificial</h6>
-                                            </div>
-                                            <div class="item d-flex align-items-center justify-content-between">
-                                                <span class="icon pe-7s-study"></span>
-                                                <h6>PHP con Laravel</h6>
-                                            </div>
-                                            <div class="item d-flex align-items-center justify-content-between">
-                                                <span class="icon pe-7s-study"></span>
-                                                <h6>Administración de PostgreSQL</h6>
-                                            </div>
-                                            <div class="item d-flex align-items-center justify-content-between">
-                                                <span class="icon pe-7s-study"></span>
-                                                <h6>Bases para Analítica y Ciencia de Datos</h6>
-                                            </div>
-                                            <div class="item d-flex align-items-center justify-content-between">
-                                                <span class="icon pe-7s-study"></span>
-                                                <h6>Fundamentos de Node.js</h6>
-                                            </div>
-                                            <div class="item d-flex align-items-center justify-content-between">
-                                                <span class="icon pe-7s-study"></span>
-                                                <h6>Redes (Network Installer Specialist)</h6>
-                                            </div>
-                                            <div class="item d-flex align-items-center justify-content-between">
-                                                <span class="icon pe-7s-study"></span>
-                                                <h6>IA para Data y Machine Learning</h6>
-                                            </div>
-                                            <div class="item d-flex align-items-center justify-content-between">
-                                                <span class="icon pe-7s-study"></span>
-                                                <h6>Bases de Datos</h6>
-                                            </div>
-                                            <div class="item d-flex align-items-center justify-content-between">
-                                                <span class="icon pe-7s-study"></span>
-                                                <h6>API REST con Express.js</h6>
-                                            </div>
-                                            <div class="item d-flex align-items-center justify-content-between">
-                                                <span class="icon pe-7s-study"></span>
-                                                <h6>Fundamentos de Python</h6>
-                                            </div>
-                                            <div class="item d-flex align-items-center justify-content-between">
-                                                <span class="icon pe-7s-study"></span>
-                                                <h6>Desarrollo y Deployment en WordPress</h6>
-                                            </div>
-                                            <div class="item d-flex align-items-center justify-content-between">
-                                                <span class="icon pe-7s-study"></span>
-                                                <h6>Fundamentos de Cloud Computing</h6>
-                                            </div>
-                                            <div class="item d-flex align-items-center justify-content-between">
-                                                <span class="icon pe-7s-study"></span>
-                                                <h6>Comprehensions, Funciones de Python</h6>
-                                            </div>
-                                        </div>
-                                    </div>
+                                    </div> 
                                 </div>
                             </div>
                         </div>
@@ -327,7 +267,7 @@
                 <section class="popular-posts pt-50 pb-100 border-bottom brd-gray">
                     <div class="container"> 
                         <div class="sec-head text-center mb-40">
-                            <h2 class="num"><span class="color-grd">Aplicaciones<span class="thin"></span></span>
+                            <h2 class="num"><span class="color-grd">APP<span class="thin"></span></span>
                             </h2>
                             <h3 class="text-capitalize">Proyectos Destacados en Aplicaciones Web</h3>
                             <p class="color-777">Como desarrollador de aplicaciones web, he creado e implementado diversas
@@ -463,7 +403,7 @@
                 <section class="popular-posts pt-50 pb-100 border-bottom brd-gray">
                     <div class="container">
                         <div class="sec-head text-center mb-40">
-                            <h2 class="num"><span class="color-grd">Páginas Web<span class="thin"></span></span>
+                            <h2 class="num"><span class="color-grd">Web<span class="thin"></span></span>
                             </h2>
                             <h3 class="text-capitalize">Proyectos Destacados en Desarrollo de Páginas Web</h3>
                             <p class="color-777">Como desarrollador de páginas web, he creado una variedad de sitios utilizando diferentes tecnologías para diversos propósitos y sectores. Cada página web que he desarrollado refleja mi habilidad para diseñar y construir sitios modernos, funcionales y estéticamente atractivos, adaptados a las necesidades y objetivos de mis clientes.</p> 
@@ -471,7 +411,7 @@
                         <div class="row gx-5">
                             <div class="col-lg-4 col-md-6">
                                 <div class="item item_ribbon red">
-                                    <a href="fundaciondiosesbuenofielyjusto.org" target="_blank">
+                                    <a href="https://fundaciondiosesbuenofielyjusto.org/" target="_blank">
                                         <div class="img">
                                             <img src="{{ asset('assets/img/portafolio/fundaciondiosesbuenofielyjusto.png') }}"
                                                 alt="">
@@ -684,7 +624,7 @@
                             </div>
                             <div class="col-lg-4 col-md-6">
                                 <div class="item">
-                                    <a href="https://carbonylena.net/" target="_blank">
+                                    <a href="https://movistarecuador.net/" target="_blank">
                                         <div class="img">
                                             <img src="{{ asset('assets/img/portafolio/movistarecuador-net.png') }}"
                                                 alt="">
@@ -770,7 +710,78 @@
             </div>
         </section> --}}
 
-
+        <section class="all-feat" data-overlay-dark="0">
+            <div class="container-fluid">
+                <div class="row">
+                   <center><h3>Algunas de mis Certificaciones</h3></center> 
+                    <div class="col-12">
+                        <div class="main-marq"> 
+                            <div class="slide-har st2">
+                                <!-- Cursos -->
+                                <div class="box">
+                                    <div class="item d-flex align-items-center justify-content-between">
+                                        <span class="icon pe-7s-study"></span>
+                                        <h6>PHP Avanzado</h6>
+                                    </div>
+                                    <div class="item d-flex align-items-center justify-content-between">
+                                        <span class="icon pe-7s-study"></span>
+                                        <h6>Data Science e Inteligencia Artificial</h6>
+                                    </div>
+                                    <div class="item d-flex align-items-center justify-content-between">
+                                        <span class="icon pe-7s-study"></span>
+                                        <h6>PHP con Laravel</h6>
+                                    </div>
+                                    <div class="item d-flex align-items-center justify-content-between">
+                                        <span class="icon pe-7s-study"></span>
+                                        <h6>Administración de PostgreSQL</h6>
+                                    </div>
+                                    <div class="item d-flex align-items-center justify-content-between">
+                                        <span class="icon pe-7s-study"></span>
+                                        <h6>Bases para Analítica y Ciencia de Datos</h6>
+                                    </div>
+                                    <div class="item d-flex align-items-center justify-content-between">
+                                        <span class="icon pe-7s-study"></span>
+                                        <h6>Fundamentos de Node.js</h6>
+                                    </div>
+                                    <div class="item d-flex align-items-center justify-content-between">
+                                        <span class="icon pe-7s-study"></span>
+                                        <h6>Redes (Network Installer Specialist)</h6>
+                                    </div>
+                                    <div class="item d-flex align-items-center justify-content-between">
+                                        <span class="icon pe-7s-study"></span>
+                                        <h6>IA para Data y Machine Learning</h6>
+                                    </div>
+                                    <div class="item d-flex align-items-center justify-content-between">
+                                        <span class="icon pe-7s-study"></span>
+                                        <h6>Bases de Datos</h6>
+                                    </div>
+                                    <div class="item d-flex align-items-center justify-content-between">
+                                        <span class="icon pe-7s-study"></span>
+                                        <h6>API REST con Express.js</h6>
+                                    </div>
+                                    <div class="item d-flex align-items-center justify-content-between">
+                                        <span class="icon pe-7s-study"></span>
+                                        <h6>Fundamentos de Python</h6>
+                                    </div>
+                                    <div class="item d-flex align-items-center justify-content-between">
+                                        <span class="icon pe-7s-study"></span>
+                                        <h6>Desarrollo y Deployment en WordPress</h6>
+                                    </div>
+                                    <div class="item d-flex align-items-center justify-content-between">
+                                        <span class="icon pe-7s-study"></span>
+                                        <h6>Fundamentos de Cloud Computing</h6>
+                                    </div>
+                                    <div class="item d-flex align-items-center justify-content-between">
+                                        <span class="icon pe-7s-study"></span>
+                                        <h6>Comprehensions, Funciones de Python</h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
         <!-- ==================== End ==================== -->
 
         <!-- ==================== Start portfolio ==================== -->
