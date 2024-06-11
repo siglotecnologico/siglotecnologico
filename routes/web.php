@@ -2,7 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Formularios\ContactoController;
-
+use App\Http\Controllers\VisitController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -39,7 +39,7 @@ Route::get('portafolio/kipit', function(){
 Route::get('portafolio/vicidial', function(){
     return view('portafolio/vicidial');
 })->name('portafolio.vicidial');
-
+Route::get('/visits', [VisitController::class, 'index']);
 Route::post('/formularioContacto', [ContactoController::class, 'store'])->name('contacto.store');
 Route::post('/formularioContactoinfo', [ContactoController::class, 'contactoinfo'])->name('contactoinfo.store');
 Route::post('/formulariosuscripcion', [ContactoController::class, 'suscripcion'])->name('suscripcion.store');
