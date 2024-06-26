@@ -90,10 +90,10 @@
                                     <a href="{{ route('portafolio') }}">Portafolio</a>
                                 </li>
 
-                             
+
                                 <li>
                                     <a href="{{ route('contactos') }}">Contactos </a>
-                                </li> 
+                                </li>
 
                             </ul>
                         </div>
@@ -106,31 +106,38 @@
                         <form action="{{ route('suscripcion.store') }}" method="post">
                             @csrf
                             <div class="input-group my-4">
-                                <input type="email" name="email" class="form-control" placeholder="Ingresa tu correo electrónico"
-                                    aria-label="Ingresa tu correo electrónico" aria-describedby="button-addon2" required>
-                                <button class="btn butn-gard border-0 text-white px-3" type="submit" id="button-addon2">
+                                <input type="email" name="email" class="form-control"
+                                    placeholder="Ingresa tu correo electrónico"
+                                    aria-label="Ingresa tu correo electrónico" aria-describedby="button-addon2"
+                                    required>
+                                <button class="btn butn-gard border-0 text-white px-3" type="submit"
+                                    id="button-addon2">
                                     <span>Suscribirse</span>
                                 </button>
                             </div>
-                        </form>
-                        <p class="fst-italic">Al suscribirte, aceptas nuestras <a href="#" class="text-decoration-underline">Políticas</a></p>
+                          
+                            {!! NoCaptcha::renderJs() !!}
+                            {!! NoCaptcha::display() !!}
+                        </form> 
+                        @if (session('footerFormsuscripcion'))
+                            <div class="alert alert-success">
+                                {{ session('footerFormsuscripcion') }}
+                            </div>
+                        @endif
+                        @if ($errors->footerFormsuscripcion->any())
+                            <div class="alert alert-danger">
+                                <ul>
+                                    @foreach ($errors->footerFormsuscripcion->all() as $error)
+                                        <li>{{ $error }}</li>
+                                    @endforeach
+                                </ul>
+                            </div>
+                        @endif
+                        <p class="fst-italic">Al suscribirte, aceptas nuestras <a href="#"
+                            class="text-decoration-underline">Políticas</a></p>
                     </div>
                 </div>
-                @if (session('success'))
-                <div class="alert alert-success">
-                    {{ session('success') }}
-                </div>
-            @endif
-    
-            @if ($errors->any())
-                <div class="alert alert-danger">
-                    <ul>
-                        @foreach ($errors->all() as $error)
-                            <li>{{ $error }}</li>
-                        @endforeach
-                    </ul>
-                </div>
-            @endif
+
             </div>
         </div>
         <div class="row justify-content-center">

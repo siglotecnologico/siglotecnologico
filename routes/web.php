@@ -39,6 +39,8 @@ Route::get('portafolio/kipit', function(){
 Route::get('portafolio/vicidial', function(){
     return view('portafolio/vicidial');
 })->name('portafolio.vicidial');
+
+
 Route::get('/visits', [VisitController::class, 'index']);
 Route::post('/formularioContacto', [ContactoController::class, 'store'])->name('contacto.store');
 Route::post('/formularioContactoinfo', [ContactoController::class, 'contactoinfo'])->name('contactoinfo.store');

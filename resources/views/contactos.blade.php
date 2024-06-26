@@ -108,14 +108,22 @@
                                             <input class="form-check-input me-2 mt-0" type="checkbox" name="terms" id="flexCheckDefault" required>
                                             <label class="form-check-label small" for="flexCheckDefault">
                                                 Al enviar, acepto los <a href="#" class="text-decoration-underline">Términos y Condiciones</a>
-                                            </label>
+                                            </label> 
                                         </div>
                                     </div>
-                                    <div class="col-lg-12 text-center">
+                                    <div class="col-lg-6 text-center">
+                                        {!! NoCaptcha::renderJs() !!}
+                                        {!! NoCaptcha::display() !!}
+                                    </div>
+                                    <div class="col-lg-6 text-center"> 
                                         <input type="submit" value="Enviar Solicitud" class="btn rounded-pill bg-blue4 fw-bold text-white text-light fs-12px">
+                                        
                                     </div>
                                 </div>
                             </form>
+                            @if ($errors->has('g-recaptcha-response'))
+                                <span class="text-danger">{{ $errors->first('g-recaptcha-response') }}</span>
+                            @endif
                         </div>
                     </div>
                     <img src="assets/img/icons/contact_a.png" alt="" class="contact_a">

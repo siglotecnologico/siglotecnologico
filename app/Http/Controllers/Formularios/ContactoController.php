@@ -6,6 +6,7 @@ use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Mail;
 use Illuminate\Support\Facades\Storage;
+use Illuminate\Support\Facades\Validator;
 class ContactoController extends Controller
 {
     public function store(Request $request)
@@ -41,7 +42,8 @@ class ContactoController extends Controller
             'company' => 'nullable|string|max:255',
             'option' => 'required|string',
             'message' => 'required|string',
-            'terms' => 'accepted'
+            'terms' => 'accepted',
+            'g-recaptcha-response' => 'required|captcha',
         ]);
 
         // Construir el contenido del correo
@@ -66,9 +68,14 @@ class ContactoController extends Controller
     {
 
          // Validar el correo electrónico
-         $validatedData = $request->validate([
-            'email' => 'required|email|max:255'
+         $validator = Validator::make($request->all(), [
+            'email' => 'required|email|max:255',
+            'g-recaptcha-response' => 'required|captcha',
         ]);
+
+        if ($validator->fails()) {
+            return redirect()->back()->withErrors($validator, 'footerFormsuscripcion')->withInput();
+        }
 
         // Guardar el correo en la base de datos (opcional)
         // Subscription::create($validatedData);
@@ -80,7 +87,7 @@ class ContactoController extends Controller
                     ->subject('Nueva suscripción al boletín');
         });
         // Redireccionar con mensaje de éxito
-        return redirect()->back()->with('success', 'Te has suscrito con éxito. Pronto recibirás nuestras actualizaciones.');
+        return redirect()->back()->with('footerFormsuscripcion', 'Te has suscrito con éxito. Pronto recibirás nuestras actualizaciones.');
     
     }
 }
